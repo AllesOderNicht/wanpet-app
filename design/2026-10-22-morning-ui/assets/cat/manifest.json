@@ -1,0 +1,3721 @@
+{
+  "version": 1,
+  "purpose": "Standalone review-only morning-room prototype. Existing calico assets copied byte-for-byte; no image generation, recoloring, mirroring, repacking or resampling.",
+  "author": "Existing Wanpet project asset authors; this prototype only copies files and renders source frames.",
+  "license": "No new license asserted. Existing repository assets; rights review remains pending per assets/manifest.json.",
+  "provenanceNotes": [
+    "Rest source: active apps/godot/data/engawa-pet.json and apps/godot/scripts/engawa_home.gd.",
+    "Walk source: active apps/godot/data/pet.json and apps/godot/scripts/pet.gd.",
+    "Walk atlases are already resampled runtime assets from the repository. Their previous optimization and original video identity limits are recorded in assets/video/runtime-packing-v1/README.md and assets/video/four-direction-v1/README.md. This prototype makes no new image changes.",
+    "This preview is not a native Godot animation or device-performance verification."
+  ],
+  "clips": {
+    "rest": {
+      "file": "rest.png",
+      "sourceFile": "apps/godot/assets/engawa/video-full/cat-video-00.png",
+      "sourceDefinition": "apps/godot/data/engawa-pet.json",
+      "sourceTexture": "res://assets/engawa/video-full/cat-video-00.png",
+      "sourceFrameCount": 121,
+      "includedFrameRange": [
+        0,
+        17
+      ],
+      "frameCount": 18,
+      "sampling": "No skipped frames within the included range. Rest is limited to the first atlas.",
+      "fps": 24,
+      "loop": true,
+      "loopNote": "The first 18 frames repeat every 0.75 s; this is a bounded review clip, not the full 121-frame native rest animation.",
+      "width": 3165,
+      "height": 3138,
+      "bytes": 8603895,
+      "sha256": "bcf96171221ac5f01e32192ef646ab47be64a6cca1a3c43682589a4b785ce5ee",
+      "frames": [
+        {
+          "sourceFrame": 0,
+          "rect": [
+            0,
+            0,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 1,
+          "rect": [
+            1055,
+            0,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 2,
+          "rect": [
+            2110,
+            0,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 3,
+          "rect": [
+            0,
+            523,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 4,
+          "rect": [
+            1055,
+            523,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 5,
+          "rect": [
+            2110,
+            523,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 6,
+          "rect": [
+            0,
+            1046,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 7,
+          "rect": [
+            1055,
+            1046,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 8,
+          "rect": [
+            2110,
+            1046,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 9,
+          "rect": [
+            0,
+            1569,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 10,
+          "rect": [
+            1055,
+            1569,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 11,
+          "rect": [
+            2110,
+            1569,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 12,
+          "rect": [
+            0,
+            2092,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 13,
+          "rect": [
+            1055,
+            2092,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 14,
+          "rect": [
+            2110,
+            2092,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 15,
+          "rect": [
+            0,
+            2615,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 16,
+          "rect": [
+            1055,
+            2615,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 17,
+          "rect": [
+            2110,
+            2615,
+            1055,
+            523
+          ],
+          "anchor": [
+            542.2947368421053,
+            507
+          ],
+          "duration": 1
+        }
+      ]
+    },
+    "left": {
+      "file": "left.png",
+      "sourceFile": "apps/godot/assets/pets/runtime-video/left-00.png",
+      "sourceDefinition": "apps/godot/data/pet.json",
+      "sourceTexture": "res://assets/pets/runtime-video/left-00.png",
+      "sourceFrameCount": 121,
+      "includedFrameRange": [
+        0,
+        120
+      ],
+      "frameCount": 121,
+      "sampling": "All source frames included; no temporal sampling.",
+      "fps": 24,
+      "loop": true,
+      "loopNote": "Original 121-frame loop at 24 fps.",
+      "width": 4064,
+      "height": 3904,
+      "bytes": 13418840,
+      "sha256": "a165b94ed7bdc44f5196098bca29cbcce279e743a7387c03a883c025641df079",
+      "frames": [
+        {
+          "sourceFrame": 0,
+          "rect": [
+            0,
+            0,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 1,
+          "rect": [
+            508,
+            0,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 2,
+          "rect": [
+            1016,
+            0,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 3,
+          "rect": [
+            1524,
+            0,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 4,
+          "rect": [
+            2032,
+            0,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 5,
+          "rect": [
+            2540,
+            0,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 6,
+          "rect": [
+            3048,
+            0,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 7,
+          "rect": [
+            3556,
+            0,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 8,
+          "rect": [
+            0,
+            244,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 9,
+          "rect": [
+            508,
+            244,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 10,
+          "rect": [
+            1016,
+            244,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 11,
+          "rect": [
+            1524,
+            244,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 12,
+          "rect": [
+            2032,
+            244,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 13,
+          "rect": [
+            2540,
+            244,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 14,
+          "rect": [
+            3048,
+            244,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 15,
+          "rect": [
+            3556,
+            244,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 16,
+          "rect": [
+            0,
+            488,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 17,
+          "rect": [
+            508,
+            488,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 18,
+          "rect": [
+            1016,
+            488,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 19,
+          "rect": [
+            1524,
+            488,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 20,
+          "rect": [
+            2032,
+            488,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 21,
+          "rect": [
+            2540,
+            488,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 22,
+          "rect": [
+            3048,
+            488,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 23,
+          "rect": [
+            3556,
+            488,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 24,
+          "rect": [
+            0,
+            732,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 25,
+          "rect": [
+            508,
+            732,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 26,
+          "rect": [
+            1016,
+            732,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 27,
+          "rect": [
+            1524,
+            732,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 28,
+          "rect": [
+            2032,
+            732,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 29,
+          "rect": [
+            2540,
+            732,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 30,
+          "rect": [
+            3048,
+            732,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 31,
+          "rect": [
+            3556,
+            732,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 32,
+          "rect": [
+            0,
+            976,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 33,
+          "rect": [
+            508,
+            976,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 34,
+          "rect": [
+            1016,
+            976,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 35,
+          "rect": [
+            1524,
+            976,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 36,
+          "rect": [
+            2032,
+            976,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 37,
+          "rect": [
+            2540,
+            976,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 38,
+          "rect": [
+            3048,
+            976,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 39,
+          "rect": [
+            3556,
+            976,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 40,
+          "rect": [
+            0,
+            1220,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 41,
+          "rect": [
+            508,
+            1220,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 42,
+          "rect": [
+            1016,
+            1220,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 43,
+          "rect": [
+            1524,
+            1220,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 44,
+          "rect": [
+            2032,
+            1220,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 45,
+          "rect": [
+            2540,
+            1220,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 46,
+          "rect": [
+            3048,
+            1220,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 47,
+          "rect": [
+            3556,
+            1220,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 48,
+          "rect": [
+            0,
+            1464,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 49,
+          "rect": [
+            508,
+            1464,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 50,
+          "rect": [
+            1016,
+            1464,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 51,
+          "rect": [
+            1524,
+            1464,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 52,
+          "rect": [
+            2032,
+            1464,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 53,
+          "rect": [
+            2540,
+            1464,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 54,
+          "rect": [
+            3048,
+            1464,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 55,
+          "rect": [
+            3556,
+            1464,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 56,
+          "rect": [
+            0,
+            1708,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 57,
+          "rect": [
+            508,
+            1708,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 58,
+          "rect": [
+            1016,
+            1708,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 59,
+          "rect": [
+            1524,
+            1708,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 60,
+          "rect": [
+            2032,
+            1708,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 61,
+          "rect": [
+            2540,
+            1708,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 62,
+          "rect": [
+            3048,
+            1708,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 63,
+          "rect": [
+            3556,
+            1708,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 64,
+          "rect": [
+            0,
+            1952,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 65,
+          "rect": [
+            508,
+            1952,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 66,
+          "rect": [
+            1016,
+            1952,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 67,
+          "rect": [
+            1524,
+            1952,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 68,
+          "rect": [
+            2032,
+            1952,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 69,
+          "rect": [
+            2540,
+            1952,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 70,
+          "rect": [
+            3048,
+            1952,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 71,
+          "rect": [
+            3556,
+            1952,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 72,
+          "rect": [
+            0,
+            2196,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 73,
+          "rect": [
+            508,
+            2196,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 74,
+          "rect": [
+            1016,
+            2196,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 75,
+          "rect": [
+            1524,
+            2196,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 76,
+          "rect": [
+            2032,
+            2196,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 77,
+          "rect": [
+            2540,
+            2196,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 78,
+          "rect": [
+            3048,
+            2196,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 79,
+          "rect": [
+            3556,
+            2196,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 80,
+          "rect": [
+            0,
+            2440,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 81,
+          "rect": [
+            508,
+            2440,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 82,
+          "rect": [
+            1016,
+            2440,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 83,
+          "rect": [
+            1524,
+            2440,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 84,
+          "rect": [
+            2032,
+            2440,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 85,
+          "rect": [
+            2540,
+            2440,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 86,
+          "rect": [
+            3048,
+            2440,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 87,
+          "rect": [
+            3556,
+            2440,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 88,
+          "rect": [
+            0,
+            2684,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 89,
+          "rect": [
+            508,
+            2684,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 90,
+          "rect": [
+            1016,
+            2684,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 91,
+          "rect": [
+            1524,
+            2684,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 92,
+          "rect": [
+            2032,
+            2684,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 93,
+          "rect": [
+            2540,
+            2684,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 94,
+          "rect": [
+            3048,
+            2684,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 95,
+          "rect": [
+            3556,
+            2684,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 96,
+          "rect": [
+            0,
+            2928,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 97,
+          "rect": [
+            508,
+            2928,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 98,
+          "rect": [
+            1016,
+            2928,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 99,
+          "rect": [
+            1524,
+            2928,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 100,
+          "rect": [
+            2032,
+            2928,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 101,
+          "rect": [
+            2540,
+            2928,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 102,
+          "rect": [
+            3048,
+            2928,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 103,
+          "rect": [
+            3556,
+            2928,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 104,
+          "rect": [
+            0,
+            3172,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 105,
+          "rect": [
+            508,
+            3172,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 106,
+          "rect": [
+            1016,
+            3172,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 107,
+          "rect": [
+            1524,
+            3172,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 108,
+          "rect": [
+            2032,
+            3172,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 109,
+          "rect": [
+            2540,
+            3172,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 110,
+          "rect": [
+            3048,
+            3172,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 111,
+          "rect": [
+            3556,
+            3172,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 112,
+          "rect": [
+            0,
+            3416,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 113,
+          "rect": [
+            508,
+            3416,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 114,
+          "rect": [
+            1016,
+            3416,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 115,
+          "rect": [
+            1524,
+            3416,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 116,
+          "rect": [
+            2032,
+            3416,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 117,
+          "rect": [
+            2540,
+            3416,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 118,
+          "rect": [
+            3048,
+            3416,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 119,
+          "rect": [
+            3556,
+            3416,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 120,
+          "rect": [
+            0,
+            3660,
+            508,
+            244
+          ],
+          "anchor": [
+            228.6808510638298,
+            226.7355623100304
+          ],
+          "duration": 1
+        }
+      ]
+    },
+    "right": {
+      "file": "right.png",
+      "sourceFile": "apps/godot/assets/pets/runtime-video/right-00.png",
+      "sourceDefinition": "apps/godot/data/pet.json",
+      "sourceTexture": "res://assets/pets/runtime-video/right-00.png",
+      "sourceFrameCount": 121,
+      "includedFrameRange": [
+        0,
+        120
+      ],
+      "frameCount": 121,
+      "sampling": "All source frames included; no temporal sampling.",
+      "fps": 24,
+      "loop": true,
+      "loopNote": "Original 121-frame loop at 24 fps.",
+      "width": 4096,
+      "height": 4096,
+      "bytes": 15838915,
+      "sha256": "759122291a334c1f44b96c6fc5e01ed6de6a29f59be5d9c9312710b425829354",
+      "frames": [
+        {
+          "sourceFrame": 0,
+          "rect": [
+            0,
+            0,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 1,
+          "rect": [
+            512,
+            0,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 2,
+          "rect": [
+            1024,
+            0,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 3,
+          "rect": [
+            1536,
+            0,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 4,
+          "rect": [
+            2048,
+            0,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 5,
+          "rect": [
+            2560,
+            0,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 6,
+          "rect": [
+            3072,
+            0,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 7,
+          "rect": [
+            3584,
+            0,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 8,
+          "rect": [
+            0,
+            256,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 9,
+          "rect": [
+            512,
+            256,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 10,
+          "rect": [
+            1024,
+            256,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 11,
+          "rect": [
+            1536,
+            256,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 12,
+          "rect": [
+            2048,
+            256,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 13,
+          "rect": [
+            2560,
+            256,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 14,
+          "rect": [
+            3072,
+            256,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 15,
+          "rect": [
+            3584,
+            256,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 16,
+          "rect": [
+            0,
+            512,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 17,
+          "rect": [
+            512,
+            512,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 18,
+          "rect": [
+            1024,
+            512,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 19,
+          "rect": [
+            1536,
+            512,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 20,
+          "rect": [
+            2048,
+            512,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 21,
+          "rect": [
+            2560,
+            512,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 22,
+          "rect": [
+            3072,
+            512,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 23,
+          "rect": [
+            3584,
+            512,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 24,
+          "rect": [
+            0,
+            768,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 25,
+          "rect": [
+            512,
+            768,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 26,
+          "rect": [
+            1024,
+            768,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 27,
+          "rect": [
+            1536,
+            768,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 28,
+          "rect": [
+            2048,
+            768,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 29,
+          "rect": [
+            2560,
+            768,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 30,
+          "rect": [
+            3072,
+            768,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 31,
+          "rect": [
+            3584,
+            768,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 32,
+          "rect": [
+            0,
+            1024,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 33,
+          "rect": [
+            512,
+            1024,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 34,
+          "rect": [
+            1024,
+            1024,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 35,
+          "rect": [
+            1536,
+            1024,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 36,
+          "rect": [
+            2048,
+            1024,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 37,
+          "rect": [
+            2560,
+            1024,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 38,
+          "rect": [
+            3072,
+            1024,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 39,
+          "rect": [
+            3584,
+            1024,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 40,
+          "rect": [
+            0,
+            1280,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 41,
+          "rect": [
+            512,
+            1280,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 42,
+          "rect": [
+            1024,
+            1280,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 43,
+          "rect": [
+            1536,
+            1280,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 44,
+          "rect": [
+            2048,
+            1280,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 45,
+          "rect": [
+            2560,
+            1280,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 46,
+          "rect": [
+            3072,
+            1280,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 47,
+          "rect": [
+            3584,
+            1280,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 48,
+          "rect": [
+            0,
+            1536,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 49,
+          "rect": [
+            512,
+            1536,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 50,
+          "rect": [
+            1024,
+            1536,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 51,
+          "rect": [
+            1536,
+            1536,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 52,
+          "rect": [
+            2048,
+            1536,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 53,
+          "rect": [
+            2560,
+            1536,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 54,
+          "rect": [
+            3072,
+            1536,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 55,
+          "rect": [
+            3584,
+            1536,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 56,
+          "rect": [
+            0,
+            1792,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 57,
+          "rect": [
+            512,
+            1792,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 58,
+          "rect": [
+            1024,
+            1792,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 59,
+          "rect": [
+            1536,
+            1792,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 60,
+          "rect": [
+            2048,
+            1792,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 61,
+          "rect": [
+            2560,
+            1792,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 62,
+          "rect": [
+            3072,
+            1792,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 63,
+          "rect": [
+            3584,
+            1792,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 64,
+          "rect": [
+            0,
+            2048,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 65,
+          "rect": [
+            512,
+            2048,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 66,
+          "rect": [
+            1024,
+            2048,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 67,
+          "rect": [
+            1536,
+            2048,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 68,
+          "rect": [
+            2048,
+            2048,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 69,
+          "rect": [
+            2560,
+            2048,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 70,
+          "rect": [
+            3072,
+            2048,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 71,
+          "rect": [
+            3584,
+            2048,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 72,
+          "rect": [
+            0,
+            2304,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 73,
+          "rect": [
+            512,
+            2304,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 74,
+          "rect": [
+            1024,
+            2304,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 75,
+          "rect": [
+            1536,
+            2304,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 76,
+          "rect": [
+            2048,
+            2304,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 77,
+          "rect": [
+            2560,
+            2304,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 78,
+          "rect": [
+            3072,
+            2304,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 79,
+          "rect": [
+            3584,
+            2304,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 80,
+          "rect": [
+            0,
+            2560,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 81,
+          "rect": [
+            512,
+            2560,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 82,
+          "rect": [
+            1024,
+            2560,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 83,
+          "rect": [
+            1536,
+            2560,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 84,
+          "rect": [
+            2048,
+            2560,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 85,
+          "rect": [
+            2560,
+            2560,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 86,
+          "rect": [
+            3072,
+            2560,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 87,
+          "rect": [
+            3584,
+            2560,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 88,
+          "rect": [
+            0,
+            2816,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 89,
+          "rect": [
+            512,
+            2816,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 90,
+          "rect": [
+            1024,
+            2816,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 91,
+          "rect": [
+            1536,
+            2816,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 92,
+          "rect": [
+            2048,
+            2816,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 93,
+          "rect": [
+            2560,
+            2816,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 94,
+          "rect": [
+            3072,
+            2816,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 95,
+          "rect": [
+            3584,
+            2816,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 96,
+          "rect": [
+            0,
+            3072,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 97,
+          "rect": [
+            512,
+            3072,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 98,
+          "rect": [
+            1024,
+            3072,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 99,
+          "rect": [
+            1536,
+            3072,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 100,
+          "rect": [
+            2048,
+            3072,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 101,
+          "rect": [
+            2560,
+            3072,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 102,
+          "rect": [
+            3072,
+            3072,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 103,
+          "rect": [
+            3584,
+            3072,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 104,
+          "rect": [
+            0,
+            3328,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 105,
+          "rect": [
+            512,
+            3328,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 106,
+          "rect": [
+            1024,
+            3328,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 107,
+          "rect": [
+            1536,
+            3328,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 108,
+          "rect": [
+            2048,
+            3328,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 109,
+          "rect": [
+            2560,
+            3328,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 110,
+          "rect": [
+            3072,
+            3328,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 111,
+          "rect": [
+            3584,
+            3328,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 112,
+          "rect": [
+            0,
+            3584,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 113,
+          "rect": [
+            512,
+            3584,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 114,
+          "rect": [
+            1024,
+            3584,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 115,
+          "rect": [
+            1536,
+            3584,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 116,
+          "rect": [
+            2048,
+            3584,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 117,
+          "rect": [
+            2560,
+            3584,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 118,
+          "rect": [
+            3072,
+            3584,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 119,
+          "rect": [
+            3584,
+            3584,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        },
+        {
+          "sourceFrame": 120,
+          "rect": [
+            0,
+            3840,
+            512,
+            256
+          ],
+          "anchor": [
+            284.54564533053514,
+            239.7187827911857
+          ],
+          "duration": 1
+        }
+      ]
+    }
+  },
+  "imageBytes": 37861650
+}

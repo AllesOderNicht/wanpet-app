@@ -1,0 +1,101 @@
+{
+	"maximumStep": 0.806017220020294,
+	"physicsWallIntervals": {
+		"maxMs": 27.763,
+		"medianMs": 20.117,
+		"p95Ms": 22.472,
+		"samples": 280
+	},
+	"samples": [
+		{
+			"facing": "back",
+			"frame": 0,
+			"position": [
+				185.029907226562,
+				454.955352783203
+			],
+			"speedScale": 0.0666729584336281
+		},
+		{
+			"facing": "back",
+			"frame": 9,
+			"position": [
+				195.76953125,
+				438.931335449219
+			],
+			"speedScale": 0.999989926815033
+		},
+		{
+			"facing": "back",
+			"frame": 21,
+			"position": [
+				209.2314453125,
+				418.845581054688
+			],
+			"speedScale": 0.999989926815033
+		},
+		{
+			"facing": "back",
+			"frame": 33,
+			"position": [
+				222.693359375,
+				398.759826660156
+			],
+			"speedScale": 0.999989926815033
+		},
+		{
+			"facing": "back",
+			"frame": 45,
+			"position": [
+				236.1552734375,
+				378.673583984375
+			],
+			"speedScale": 1.00002133846283
+		},
+		{
+			"facing": "back",
+			"frame": 57,
+			"position": [
+				247.112670898438,
+				357.66796875
+			],
+			"speedScale": 0.999986827373505
+		},
+		{
+			"facing": "back",
+			"frame": 69,
+			"position": [
+				249.840942382812,
+				333.642700195312
+			],
+			"speedScale": 0.999986827373505
+		},
+		{
+			"facing": "back",
+			"frame": 81,
+			"position": [
+				252.388061523438,
+				309.599029541016
+			],
+			"speedScale": 1.00000989437103
+		},
+		{
+			"facing": "back",
+			"frame": 90,
+			"position": [
+				254.035308837891,
+				290.930847167969
+			],
+			"speedScale": 0.473110914230347
+		},
+		{
+			"facing": "back",
+			"frame": 94,
+			"position": [
+				254.65380859375,
+				283.922637939453
+			],
+			"speedScale": 0.169790655374527
+		}
+	]
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f6f0e5">
+  <title>丸宠 · 清晨小家｜交互 UI 审阅</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- THESIS: A newly composed, directly interactive home; objects are navigation and paper/cloth opens in place. OWN-WORLD: warm ivory, sage, sepia pencil and original hand-drawn room art, existing cat pixels. STORY: accompany, pack, travel, return, keep memories. FIRST VIEWPORT: full furnished room, original cat on foreground rug, three object hotspots, quiet upper title, no tab bar. FORM: user-pinned morning-home direction overrides seed 1565509c. FINISH: review-only interactive draft; no production refactor before user approval. -->
+  <header class="review-header"><a class="review-brand" href="./"><span class="brand-mark">丸</span><span>丸宠 <small>交互设计审阅</small></span></a><nav aria-label="审阅视图"><button class="view-tab active" data-view="prototype">体验原型</button><button class="view-tab" data-view="gallery">界面总览</button><button class="view-tab" data-view="notes">设计说明</button></nav><span class="draft-label">设计稿 v1 · 待审阅</span></header>
+  <main class="workspace" id="prototype-view">
+    <aside class="review-sidebar"><h2>一个清晨的小家</h2><p class="review-description">把界面藏进生活里，<br>把空间留给陪伴。</p><div class="sidebar-rule"></div><h3>审阅页面</h3><nav id="screen-nav" class="screen-nav" aria-label="选择审阅页面"></nav><div class="sidebar-note">这是独立交互稿。<br>全部数据与旅行均为演示，<br>不会连接账号或改动存档。</div><button class="quiet-button reset-demo">重新体验</button></aside>
+    <section class="preview-area" aria-label="手机交互原型"><div class="phone" id="phone">
+      <div class="scene" id="scene">
+        <img class="room-art" id="room-art" src="assets/room.png" alt="手绘清晨小屋：窗边书桌、书架、扶手椅、相册、行囊和柔软地毯">
+        <div class="statusbar" aria-hidden="true"><span>9:41</span><span class="status-icons"><svg viewBox="0 0 40 13"><path d="M1 10V9m4 1V7m4 3V4m4 6V1M20 4c4-4 9-4 13 0m-10 3c2-2 5-2 7 0m-4 3h1"/><rect x="35" y="2" width="4" height="9" rx="1"/></svg></span></div>
+        <header class="home-header"><div><h1 id="home-title">早安，小家</h1><p id="home-subtitle">阳光正好，风也轻轻。</p></div><button class="icon-button settings-trigger" data-action="settings" aria-label="打开小屋设置"></button></header>
+        <button class="floor-target" id="floor-target" aria-label="让小猫在地毯上走动，可使用方向键"></button>
+        <button class="object-hotspot bag-hotspot" data-action="bag" aria-label="打开行囊"><span class="object-label">行囊</span></button>
+        <button class="object-hotspot album-hotspot" data-action="album" aria-label="打开相册"><span class="object-label">相册</span></button>
+        <button class="object-hotspot door-hotspot" data-action="door" aria-label="打开门口菜单"><span class="object-label">门口</span></button>
+        <button class="cat-hit" id="cat-hit" aria-label="轻轻抚摸小猫"><canvas id="cat-canvas" aria-hidden="true"></canvas><span id="pet-heart" aria-hidden="true"></span></button>
+        <button class="trip-note" id="trip-note" data-action="trip" hidden></button>
+        <div class="scene-caption" id="scene-caption"><span class="caption-paw"></span><span id="scene-hint">轻轻摸摸它，或在小屋里走走。</span></div>
+        <div class="connection-note" id="connection-note" hidden></div>
+      </div>
+      <div class="overlay" id="overlay" hidden><button class="scrim" aria-label="收起面板" data-action="close"></button><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" tabindex="-1"></section></div>
+      <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+      <div class="home-indicator" aria-hidden="true"></div>
+    </div><p class="preview-caption">轻点场景里的背包、相册和门口开始体验</p></section>
+    <aside class="inspector"><h3>这一屏的设计</h3><h2 id="screen-title">家园 · 直接陪伴</h2><p id="screen-description"></p><div class="sidebar-rule"></div><h3>状态预览</h3><p class="state-help">审稿工具，实际产品不显示</p><div class="state-list"><button data-demo="home">在家</button><button data-demo="traveling">旅行中</button><button data-demo="returned">归来待领</button><button data-demo="empty">空相册</button><button data-demo="offline">断网</button><button data-demo="pending">结果待确认</button><button data-demo="loading">读取中</button></div><label class="review-check"><input id="hotspot-toggle" type="checkbox">显示可点击范围</label><div class="sidebar-rule"></div><p class="inspector-foot">保留原猫素材<br>重新设计空间、入口与面板<br>仅设计原型，尚未重构正式前端</p></aside>
+  </main>
+  <section id="gallery-view" class="review-page" hidden><h1>从陪伴，到收藏一段回忆</h1><p>以下为可点击原型的实际界面。点击任一页面继续体验。</p><div id="gallery" class="gallery"></div><details class="concept-detail"><summary>查看整体视觉概念稿</summary><img src="review/visual-concept.png" alt="家园、行囊、旅途、相册四屏视觉概念稿；以可点击原型的文字和状态为准"></details></section>
+  <section id="notes-view" class="review-page notes-page" hidden><h1>干净有序，也有生活气息。</h1><p class="notes-lead">清晨的阳光、稍稍扬起的窗帘、放在手边的相册。界面从小猫生活的空间长出来。</p><div class="notes-grid"><article><h2>重新设计了什么</h2><p>首页与活动场景合一；家具承担导航；取消常驻底部栏。行囊、旅途和相册在家园上展开，关闭后回到原位置。每个面板都有清楚的退出方式。</p></article><article><h2>保留了什么</h2><p>保留当前三花猫资源与现有功能含义。猫的休息及左右走动使用原项目图集，未经重绘或镜像。出发、归来和收藏继续以正式服务端为权威，本稿只演示状态。</p></article><article><h2>视觉语言</h2><p>米白纸面、浅木家具、鼠尾草绿、棕色墨线。标题用柔和楷体，正文用清晰的系统中文字体。手绘属于场景与物件，数量、操作、错误均为真实文本。</p><div class="palette"><span style="--swatch:#fff7e9">纸白</span><span style="--swatch:#d8b990">浅木</span><span style="--swatch:#65734e">鼠尾草</span><span style="--swatch:#594735">墨棕</span></div></article><article><h2>交互与状态</h2><p>点击猫有轻柔反馈；点地毯可走动。门口负责庭院与旅途分流。行囊草稿可收起保留；旅行中离家；归来只领取一次。断网保留展示，阻止写操作；结果未知先核对。</p></article><article><h2>审阅边界</h2><p>这里是浏览器中的设计稿，数据、时间、账号均为演示。尚未接入 RN、Godot 或后端；不代表真机性能、连续动作或生产接口已验收。</p></article><article><h2>建议怎么审</h2><p>先看小屋整体是否有你要的手绘温馨感，再实际走一次「行囊 → 出发 → 归来 → 收进相册」。右侧状态工具可查看空态、断网和待确认操作。</p></article></div></section>
+  <script type="module" src="app.js"></script>
+</body></html>

@@ -1,0 +1,16 @@
+{
+  "file": "apps/godot/exports/Wanpet.zip",
+  "sha256": "92feb7ea1745696a60f6490eaf2638d3bcbcad85c23085912e6b4b75e7bf502f",
+  "bytes": 82224449,
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "type": "macOS universal debug; local ad-hoc signature",
+  "packageAudit": "Required room/pet JSON present; tests and private test-account credentials absent",
+  "nativeChecks": [
+    "launched exported .app",
+    "logged in to loopback backend",
+    "loaded layered interior",
+    "switched to courtyard",
+    "resized native window without missing navigation"
+  ],
+  "ios": "preset only; not built or tested"
+}

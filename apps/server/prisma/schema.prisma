@@ -1,0 +1,300 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url = env("DATABASE_URL")
+}
+model Account {
+  id String @id @default(uuid()) @db.Uuid
+  email String? @unique @db.VarChar(254)
+  username String @db.VarChar(32)
+  passwordHash String
+  createdAt DateTime @default(now())
+  sessions Session[]
+  player Player?
+  requests IdempotencyRecord[]
+  media MediaAsset[]
+  imageJobs ImageJob[]
+}
+model Session {
+  id String @id @default(uuid()) @db.Uuid
+  accountId String @db.Uuid
+  tokenHash String @unique @db.Char(64)
+  expiresAt DateTime?
+  createdAt DateTime @default(now())
+  account Account @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  @@index([accountId])
+  @@index([expiresAt])
+}
+model Player {
+  id String @id @default(uuid()) @db.Uuid
+  accountId String @unique @db.Uuid
+  revision Int @default(1)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  account Account @relation(fields: [accountId], references: [id], onDelete: Restrict)
+  pet Pet?
+  inventory Inventory[]
+  grant StarterGrant?
+  trips Trip[]
+  collection CollectionEntry[]
+}
+model Pet {
+  id String @id @default(uuid()) @db.Uuid
+  playerId String @unique @db.Uuid
+  speciesId String
+  nickname String
+  player Player @relation(fields: [playerId], references: [id], onDelete: Restrict)
+  life PetLife?
+  chat ChatRoom?
+  profile PetProfile?
+}
+
+model PetProfile {
+  petId String @id @db.Uuid
+  revision Int @default(1)
+  description String @default("") @db.VarChar(500)
+  voice String @default("gentle") @db.VarChar(16)
+  temperament Json
+  updatedAt DateTime @default(now()) @updatedAt @db.Timestamptz(3)
+  pet Pet @relation(fields: [petId], references: [id], onDelete: Restrict)
+}
+
+model ChatRoom {
+  petId String @id @db.Uuid
+  epoch Int @default(0)
+  needsReindex Boolean @default(false)
+  pet Pet @relation(fields: [petId], references: [id], onDelete: Restrict)
+  turns ChatTurn[]
+  memories LongMemory[]
+}
+
+model ChatTurn {
+  id String @id @default(uuid()) @db.Uuid
+  petId String @db.Uuid
+  sessionId String @db.Uuid
+  surface String @default("interior")
+  epoch Int
+  userText String
+  reply String @default("")
+  status String @default("queued")
+  error String?
+  attempt Int @default(1)
+  hidden Boolean @default(false)
+  invitation Json?
+  memoryStatus String @default("pending")
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @default(now()) @updatedAt @db.Timestamptz(3)
+  room ChatRoom @relation(fields: [petId], references: [petId], onDelete: Restrict)
+  events ChatEvent[]
+  memoryTask MemoryTask?
+  imageRoll Int @default(100)
+  imageIntent Boolean @default(false)
+  media MediaAsset[]
+  imageJob ImageJob?
+  @@index([petId, createdAt])
+}
+
+model ChatEvent {
+  id Int @id @default(autoincrement())
+  turnId String @db.Uuid
+  type String
+  data Json
+  turn ChatTurn @relation(fields: [turnId], references: [id], onDelete: Cascade)
+  @@index([turnId, id])
+}
+
+model LongMemory {
+  id String @id @default(uuid()) @db.Uuid
+  petId String @db.Uuid
+  text String
+  sourceTurnId String? @db.Uuid
+  providerId String?
+  active Boolean @default(true)
+  updatedAt DateTime @default(now()) @db.Timestamptz(3)
+  room ChatRoom @relation(fields: [petId], references: [petId], onDelete: Restrict)
+  @@index([petId, active])
+}
+
+model MemoryTask {
+  turnId String @id @db.Uuid
+  epoch Int
+  generation Int @default(0)
+  attempts Int @default(0)
+  nextAt DateTime @default(now()) @db.Timestamptz(3)
+  turn ChatTurn @relation(fields: [turnId], references: [id], onDelete: Cascade)
+}
+
+model MemoryGarbage {
+  scope String @id
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+}
+
+model SpeechJob {
+  id String @id @default(uuid()) @db.Uuid
+  accountId String @db.Uuid
+  status String @default("queued")
+  text String @default("")
+  error String?
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  @@index([accountId, createdAt])
+}
+
+model ChatUsage {
+  accountId String @db.Uuid
+  day String
+  turns Int @default(0)
+  @@id([accountId, day])
+}
+model PetLife {
+  petId String @id @db.Uuid
+  revision Int @default(1)
+  state Json
+  updatedAt DateTime @default(now()) @db.Timestamptz(3)
+  pet Pet @relation(fields: [petId], references: [id], onDelete: Restrict)
+}
+model Inventory {
+  playerId String @db.Uuid
+  itemId String
+  quantity Int
+  player Player @relation(fields: [playerId], references: [id], onDelete: Restrict)
+  @@id([playerId, itemId])
+}
+model StarterGrant {
+  playerId String @id @db.Uuid
+  configVersion String
+  items Json
+  createdAt DateTime @default(now())
+  player Player @relation(fields: [playerId], references: [id], onDelete: Restrict)
+}
+model IdempotencyRecord {
+  accountId String @db.Uuid
+  operation String
+  key String @db.VarChar(128)
+  requestHash String @db.Char(64)
+  status Int
+  response Json
+  createdAt DateTime @default(now())
+  account Account @relation(fields: [accountId], references: [id], onDelete: Restrict)
+  @@id([accountId, operation, key])
+}
+
+model Trip {
+  id String @id @default(uuid()) @db.Uuid
+  playerId String @db.Uuid
+  configVersion String
+  destinationId String
+  loadout Json
+  rewards Json
+  startedAt DateTime @db.Timestamptz(3)
+  returnAt DateTime @db.Timestamptz(3)
+  claimedAt DateTime? @db.Timestamptz(3)
+  claimResponse Json?
+  player Player @relation(fields: [playerId], references: [id], onDelete: Restrict)
+  ledger TripLedger[]
+  imageJob ImageJob?
+  @@index([playerId, startedAt])
+  // One unclaimed trip per player is enforced by a partial unique index in the migration.
+}
+
+enum TripLedgerKind {
+  DEPARTURE
+  CLAIM
+}
+
+model TripLedger {
+  id String @id @default(uuid()) @db.Uuid
+  tripId String @db.Uuid
+  kind TripLedgerKind
+  items Json
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  trip Trip @relation(fields: [tripId], references: [id], onDelete: Restrict)
+  @@unique([tripId, kind])
+}
+
+model CollectionEntry {
+  playerId String @db.Uuid
+  itemId String
+  quantity Int
+  firstCollectedAt DateTime @default(now()) @db.Timestamptz(3)
+  player Player @relation(fields: [playerId], references: [id], onDelete: Restrict)
+  @@id([playerId, itemId])
+}
+
+model MediaAsset {
+  id String @id @default(uuid()) @db.Uuid
+  accountId String? @db.Uuid
+  turnId String? @db.Uuid
+  kind String
+  width Int
+  height Int
+  bytes Int
+  destination String?
+  appearance String?
+  theme String?
+  style String?
+  deletedAt DateTime? @db.Timestamptz(3)
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  account Account? @relation(fields: [accountId], references: [id], onDelete: Restrict)
+  turn ChatTurn? @relation(fields: [turnId], references: [id], onDelete: Restrict)
+  jobs ImageJob[]
+  @@index([accountId, turnId])
+  @@index([kind, destination, appearance, theme, style])
+}
+
+model ImageJob {
+  id String @id @default(uuid()) @db.Uuid
+  accountId String @db.Uuid
+  petId String @db.Uuid
+  turnId String? @unique @db.Uuid
+  tripId String? @unique @db.Uuid
+  epoch Int?
+  origin String
+  status String @default("queued")
+  prompt String
+  referenceIds String[] @default([])
+  destination String?
+  appearance String?
+  theme String?
+  style String?
+  imageId String? @db.Uuid
+  error String?
+  attempt Int @default(1)
+  model String?
+  resultUrl String?
+  submittedAt DateTime? @db.Timestamptz(3)
+  nextAt DateTime @default(now()) @db.Timestamptz(3)
+  saveAttempts Int @default(0)
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @default(now()) @updatedAt @db.Timestamptz(3)
+  account Account @relation(fields: [accountId], references: [id], onDelete: Restrict)
+  turn ChatTurn? @relation(fields: [turnId], references: [id], onDelete: Restrict)
+  trip Trip? @relation(fields: [tripId], references: [id], onDelete: Restrict)
+  image MediaAsset? @relation(fields: [imageId], references: [id], onDelete: Restrict)
+  charges ImageCharge[]
+  @@index([status, nextAt])
+  @@index([accountId, createdAt])
+}
+
+model ImageBudget {
+  day String @id @db.VarChar(10)
+  usedFen Int @default(0)
+}
+
+model ImageCharge {
+  jobId String @db.Uuid
+  attempt Int
+  day String @db.VarChar(10)
+  amountFen Int
+  status String @default("reserved")
+  job ImageJob @relation(fields: [jobId], references: [id], onDelete: Restrict)
+  @@id([jobId, attempt])
+}
+
+model ImageGift {
+  petId String @db.Uuid
+  day String @db.VarChar(10)
+  turnId String @unique @db.Uuid
+  @@id([petId, day])
+}

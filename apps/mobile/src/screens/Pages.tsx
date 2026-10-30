@@ -1,0 +1,78 @@
+import React, {useEffect, useState} from 'react';
+import {Image, Pressable, StyleSheet, Switch, Text, TextInput, View, useWindowDimensions} from 'react-native';
+import type {Session, SessionState} from '../session/Session';
+import {Action, art, Art, catalog, colors, Copy, Empty, Icon, Page, Postcard, s, titleFont} from './shared';
+import {PostcardPictures} from './Images';
+
+export type PageName='home'|'bag'|'trip'|'collection'|'return'|'settings'|'door'|'account'|'password'|'logout'|'detail'|'auth'|'cat-life'|'chat'|'pet-profile'|'create'|'memories';
+export type PageProps={session:Session;state:SessionState;open:(page:PageName)=>void};
+export type Preferences={automatic:boolean;reduced:boolean;labels?:boolean};
+function Field({label,value,onChange,secret=false,placeholder,email=false}:{label:string;value:string;onChange:(value:string)=>void;secret?:boolean;placeholder?:string;email?:boolean}) {
+ return <View style={s.field}><Text style={s.label}>{label}</Text><TextInput accessibilityLabel={label} placeholder={placeholder??label} placeholderTextColor="#857057" value={value} onChangeText={onChange} autoCorrect={false} autoCapitalize="none" secureTextEntry={secret} keyboardType={email?'email-address':'default'} textContentType={email?'emailAddress':secret?'password':'nickname'} style={s.input}/></View>;
+}
+export function AuthPage({session,state}:Pick<PageProps,'session'|'state'>) {
+ const[email,setEmail]=useState(''),[username,setUsername]=useState(''),[password,setPassword]=useState(''),[registration,setRegistration]=useState(false);
+ const passwordLength=Array.from(password).length;
+ const validEmail=/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
+ const validName=!!username.trim()&&Array.from(username.trim()).length<=32;
+ return <Page title={registration?'留一盏属于你的灯':'推门，回到小屋'} footer={<><Action label={state.busy?'正在打开小屋…':registration?'创建账号并回家':'登录并回家'} primary disabled={state.busy||!validEmail||(registration&&!validName)||passwordLength<9||passwordLength>128} onPress={()=>{const secret=password;setPassword('');void session.authenticate(email.trim().toLowerCase(),secret,registration,registration?username.trim():undefined);}}/><Action label={registration?'已有账号，去登录':'第一次来，创建账号'} disabled={state.busy} onPress={()=>{setRegistration(!registration);setPassword('');session.clearError();}}/></>}>
+ <Field label="邮箱" value={email} onChange={setEmail} email placeholder="用于登录的邮箱"/>
+ {registration&&<Field label="用户名" value={username} onChange={setUsername} placeholder="希望宠物叫你什么"/>}
+ <Field label="密码" value={password} onChange={setPassword} secret placeholder="至少 9 个字符"/>
+ <Copy style={styles.fine}>登录后会记住你，关闭应用后也不用重新登录。</Copy></Page>;
+}
+export function BagPage({session,state,open,draft,onDraftChange}:PageProps&{draft?:string[];onDraftChange?:(value:string[])=>void}) {
+ const[local,setLocal]=useState<string[]>([]);const selected=draft??local;const change=onDraftChange??setLocal;const{width}=useWindowDimensions();
+ const items=['test_food','test_supply'];const quantity=(id:string)=>state.snapshot?.inventory.find(i=>i.itemId===id)?.quantity??0;
+ const conflict=selected.some(id=>quantity(id)<1);const unavailable=state.busy||!state.online||!!state.pending||!!state.snapshot?.activeTrip;
+ async function depart(){const owner=state.account?.id;await session.startTrip(selected);if(session.state.account?.id===owner&&session.state.snapshot?.activeTrip&&!session.state.pending){change([]);open('trip');}}
+ return <Page title="带一点心意" subtitle="挑选这次出门带上的物品" footer={<><Action label={state.busy?'正在准备出门…':state.snapshot?.activeTrip?'已有旅途，暂不能出发':'带好行囊，出发'} primary icon="paw" disabled={!selected.length||conflict||unavailable} onPress={()=>{void depart();}}/><Action label="暂时收起" onPress={()=>open('home')}/></>}>
+ <View style={[s.bundle,width<340&&{height:115}]}><Image source={art.bundle} resizeMode="contain" style={StyleSheet.absoluteFill}/>{selected.length?<View style={s.packed}>{selected.map(id=><View key={id} style={s.packedItem}><Art source={catalog[id]?.art} height={72}/><Text style={s.packedLabel}>{catalog[id]?.short??id}</Text></View>)}</View>:<Text style={[s.itemTitle,{color:'#626443'}]}>放进一点旅途心意</Text>}</View>
+ <View style={s.row}>{items.map(id=>{const entry=catalog[id];const checked=selected.includes(id);const disabled=state.busy||!!state.pending||(!checked&&quantity(id)<1);return <Pressable key={id} accessibilityRole="checkbox" accessibilityLabel={entry.name} accessibilityState={{checked,disabled}} disabled={disabled} onPress={()=>change(checked?selected.filter(v=>v!==id):[...selected,id])} style={[s.item,checked&&s.selected,disabled&&{opacity:.6}]}>
+ <View style={[s.check,checked&&s.checkSelected]}>{checked&&<Icon name="check" size={14} color="#fffdf4"/>}</View><Art source={entry.art} height={width<340?60:72}/><Text style={s.itemTitle}>{entry.short}</Text><Copy style={{fontSize:12}}>{quantity(id)?`拥有 ${quantity(id)} 份`:'已用完'}</Copy></Pressable>;})}</View>
+ <Text style={s.summary}>已装好 <Text style={{fontSize:18}}>{selected.length}</Text> 件 · 每种带 1 份</Text>
+ {conflict&&<Copy style={s.center}>物品数量已更新，请调整已用完的物品。</Copy>}{state.snapshot?.activeTrip&&<Copy style={s.center}>小猫已有一段旅途，回来后再整理新的行囊。</Copy>}
+ </Page>;
+}
+export function TripPage({session,state,open}:PageProps) {
+ const[,tick]=useState(0);useEffect(()=>{const id=setInterval(()=>tick(n=>n+1),1000);return()=>clearInterval(id);},[]);
+ const trip=state.snapshot?.activeTrip;const seconds=session.secondsRemaining();const ready=trip?.status==='READY_TO_CLAIM';
+ async function claim(){const owner=state.account?.id;await session.claimTrip();if(session.state.account?.id===owner&&!session.state.pending&&session.state.rewards.length)open('return');}
+ if(!trip)return <Page title="门外，还有些风景" footer={<><Action label="整理行囊" primary icon="bag" onPress={()=>open('bag')}/><Action label="留在小屋" onPress={()=>open('home')}/></>}><Empty icon="bag" title="远方还在等它"><Copy style={s.center}>带上一点心意，{ '\n' }去遇见下一段小小的风景。</Copy></Empty></Page>;
+ if(ready)return <Page title="听，是回家的声音" subtitle="它带回了一份新的回忆" footer={<><Action label={state.busy?'正在打开…':'打开带回的礼物'} primary icon="mail" disabled={state.busy||!state.online||!!state.pending} onPress={()=>{void claim();}}/><Action label="先陪它待一会儿" onPress={()=>open('home')}/></>}><Empty icon="mail" title="小猫回来了"><Copy style={s.center}>风景和故事都装好了，{ '\n' }一起打开看看吧。</Copy><Copy style={s.center}>打开后，回忆会收进相册。</Copy></Empty></Page>;
+ return <Page title="在路上，慢慢来" subtitle="小屋会一直为它留着" footer={<><Action label="回到小屋" primary icon="home" onPress={()=>open('home')}/><Action label="查看最新状态" disabled={state.busy} onPress={()=>{void session.refresh();}}/></>}>
+ <Postcard itemId="test_postcard_forest"/><View style={styles.tripPath}><View style={styles.pathStop}><Icon name="home" color={colors.green}/><Copy style={styles.fine}>小屋</Copy></View><View style={styles.pathLine}/><Icon name="cat" size={28} color={colors.green}/><View style={styles.pathLine}/><View style={styles.pathStop}><Icon name="tree" color={colors.green}/><Copy style={styles.fine}>林间</Copy></View></View>
+ <Text style={styles.tripStatus}>正在旅行</Text><Copy style={s.center}>去看看远处的风景，{ '\n' }回来时，再听它慢慢说。</Copy><Copy style={[s.center,styles.fine]}>{seconds?`约 ${seconds} 秒后归来`:'正在确认归来状态…'}</Copy>
+ </Page>;
+}
+export function CollectionPage({state,session,open=()=>{},onSelect=()=>{}}:Pick<PageProps,'state'>&Partial<Pick<PageProps,'open'|'session'>>&{onSelect?:(id:string)=>void}) {
+ const[tab,setTab]=useState<'postcards'|'souvenirs'>('postcards');
+ const entries=[...(state.snapshot?.collection??[])].sort((a,b)=>b.firstCollectedAt.localeCompare(a.firstCollectedAt));
+ const shown=entries.filter(i=>tab==='postcards'?catalog[i.itemId]?.kind==='postcard'||!catalog[i.itemId]:catalog[i.itemId]?.kind!=='postcard'&&!!catalog[i.itemId]);
+ const tile=(item:typeof entries[number],small=false)=><Pressable key={item.itemId} accessibilityRole="button" accessibilityLabel={`打开${catalog[item.itemId]?.name??item.itemId}`} onPress={()=>onSelect(item.itemId)} style={small?{width:'47%'}:undefined}><Postcard itemId={item.itemId} date={small?undefined:item.firstCollectedAt} quantity={item.quantity} small={small}/></Pressable>;
+ const content=!shown.length?<Empty icon={tab==='postcards'?'book':'leaf'} title={tab==='postcards'?'第一张明信片，还在路上':'还留着一些空位'}><Copy style={s.center}>{tab==='postcards'?'旅途带回的回忆，\n会慢慢收在这里。':'旅途带回的小小纪念，\n以后就放在这里。'}</Copy>{tab==='postcards'&&<Action label="为下一段旅途整理行囊" onPress={()=>open('bag')}/>}</Empty>:<>{tile(shown[0])}<View style={styles.smallCards}>{shown.slice(1).map(i=>tile(i,true))}</View><Copy style={[s.center,styles.fine]}>{shown.length} 处风景 · {shown.reduce((sum,i)=>sum+i.quantity,0)} 份回忆</Copy></>;
+ return <Page title="把小日子收起来" footer={<Action label="合上相册" onPress={()=>open('home')}/>}><View style={styles.tabs}>{([['postcards','明信片'],['souvenirs','纪念品']] as const).map(([id,label])=><Pressable key={id} accessibilityRole="tab" accessibilityState={{selected:tab===id}} onPress={()=>setTab(id)} style={[styles.tab,tab===id&&styles.tabSelected]}><Text style={[styles.tabText,tab===id&&{color:colors.green}]}>{label}</Text></Pressable>)}</View>
+ {session&&tab==='postcards'?<PostcardPictures session={session}>{content}</PostcardPictures>:content}
+ </Page>;
+}
+export function DetailPage({state,session,open,itemId}:Pick<PageProps,'state'|'open'>&Partial<Pick<PageProps,'session'>>&{itemId:string}) {
+ const item=state.snapshot?.collection?.find(i=>i.itemId===itemId);const entry=catalog[itemId];
+ return <Page title={entry?.name??'旅途的回忆'} footer={<Action label="回到相册" onPress={()=>open('collection')}/>}>
+ {item?<>{session?<PostcardPictures session={session} theme={itemId}><Postcard itemId={itemId} date={item.firstCollectedAt} quantity={item.quantity}/></PostcardPictures>:<Postcard itemId={itemId} date={item.firstCollectedAt} quantity={item.quantity}/>}<Copy>{entry?.detail??'这份回忆已收进相册。'}</Copy><Copy style={[s.center,styles.fine]}>已收到 {item.quantity} 份</Copy></>:<Copy>这份收藏暂时无法查看，请返回相册刷新。</Copy>}</Page>;
+}
+export function ReturnPage({state,session,open}:Pick<PageProps,'state'|'open'>&Partial<Pick<PageProps,'session'>>) {
+ return <Page title="它带着回忆回来了" subtitle="这一份小小的风景，送给你" footer={<><Action label="翻开相册" primary icon="book" onPress={()=>open('collection')}/><Action label="回到小猫身边" onPress={()=>open('home')}/></>}>
+ {state.rewards.map(item=><View key={item.itemId}>{session&&catalog[item.itemId]?.kind==='postcard'?<PostcardPictures session={session} theme={item.itemId} tripId={state.lastClaimTripId} latest><Postcard itemId={item.itemId}/></PostcardPictures>:<Postcard itemId={item.itemId}/>}<Text style={styles.reward}>{catalog[item.itemId]?.name??item.itemId} × {item.quantity}</Text></View>)}<Copy style={s.center}>{state.rewards.length?'已收进相册，好好留着。':'已经收好的回忆，可以去相册查看。'}</Copy></Page>;
+}
+export function SettingsPage({state,open,preferences,preferencesBusy=false,onPreferences}:PageProps&{preferences:Preferences;preferencesBusy?:boolean;onPreferences:(next:Preferences)=>void}) {
+ return <Page title="小屋里的小习惯" footer={<Action label="收好设置" primary onPress={()=>open('home')}/>}>
+ <Action label="看看它的小日子" icon="paw" onPress={()=>open('cat-life')}/>
+ {([['automatic','自在活动','让小猫在小屋里慢慢走动'],['reduced','减少动态','保留点击反馈，关闭走动过渡']] as const).map(([key,label,help])=><View key={key} style={s.switchRow}><View style={{flex:1}}><Text style={s.switchTitle}>{label}</Text><Copy style={s.switchHelp}>{help}</Copy></View><Switch accessibilityLabel={label} value={preferences[key]??true} disabled={preferencesBusy} onValueChange={v=>onPreferences({...preferences,[key]:v})} trackColor={{false:'#d1c8b8',true:colors.green}} thumbColor="#fffaf2"/></View>)}
+ <Copy style={[styles.fine,{marginTop:12}]}>账号</Copy><View style={styles.account}><Icon name="person" size={26} color={colors.green}/><Copy style={{flex:1}}>{state.account?.username}</Copy><Action label="管理账号" onPress={()=>open('account')}/></View><Copy style={[s.center,{marginTop:18}]}>按自己的节奏，慢慢来。</Copy></Page>;
+}
+export function AccountPage({state,open}:Pick<PageProps,'state'|'open'>){return <Page title="这间小屋的主人" footer={<Action label="返回设置" onPress={()=>open('settings')}/>}><View style={styles.account}><Icon name="person" size={26}/><View><Copy>{state.account?.username}</Copy><Copy style={styles.fine}>{state.account?.email}</Copy></View></View><Choice icon="settings" title="修改密码" copy="让小屋的钥匙更安心" onPress={()=>open('password')}/><Choice icon="home" title="退出登录" copy="退出后，下次需要重新登录" onPress={()=>open('logout')}/></Page>;}
+export function PasswordPage({session,state,open}:PageProps){const[old,setOld]=useState(''),[fresh,setFresh]=useState('');return <Page title="换一把小屋的钥匙" subtitle="修改成功后，需要重新登录" footer={<><Action label={state.busy?'正在修改…':'确认修改'} primary disabled={state.busy||!old||Array.from(fresh).length<9||Array.from(fresh).length>128} onPress={()=>{const current=old,next=fresh;setOld('');setFresh('');void session.changePassword(current,next);}}/><Action label="返回账号管理" onPress={()=>open('account')}/></>}><Field label="当前密码" value={old} onChange={setOld} secret/><Field label="新密码" value={fresh} onChange={setFresh} secret placeholder="至少 9 个字符"/></Page>;}
+export function LogoutPage({session,state,open}:PageProps){return <Page title="暂时离开小屋？" footer={<><Action label="退出登录" primary disabled={state.busy} onPress={()=>{void session.logout();}}/><Action label="再待一会儿" onPress={()=>open('account')}/></>}><Empty icon="home" title=""><Copy style={s.center}>退出后需要重新登录。{ '\n' }未出发的行囊选择会清空。</Copy></Empty></Page>;}
+function Choice({icon,title,copy,onPress}:{icon:'home'|'leaf'|'mail'|'settings';title:string;copy:string;onPress:()=>void}){return <Pressable accessibilityRole="button" accessibilityLabel={title} onPress={onPress} style={styles.choice}><Icon name={icon} size={30} color={colors.green}/><View style={{flex:1}}><Text style={styles.choiceTitle}>{title}</Text><Copy style={{fontSize:12,lineHeight:20,marginTop:5}}>{copy}</Copy></View><Icon name="arrow" size={17}/></Pressable>;}
+export function DoorPage({state,open,courtyard,onSwitch}:{state:SessionState;open:PageProps['open'];courtyard:boolean;onSwitch:()=>void}){const ready=state.snapshot?.activeTrip?.status==='READY_TO_CLAIM';return <Page title={courtyard?'要回小屋吗？':'推开门，走走吧'}><Choice icon={courtyard?'home':'leaf'} title={courtyard?'回到小屋':'去庭院坐坐'} copy={courtyard?'窗边还留着一片阳光':'风从门外轻轻吹进来'} onPress={onSwitch}/><Choice icon="mail" title={ready?'它已经回家了':'看看旅途'} copy={ready?'打开它带回的小小回忆':state.snapshot?.activeTrip?'正在林间慢慢散步':'准备下一段远方的风景'} onPress={()=>open('trip')}/></Page>;}
+const styles=StyleSheet.create({fine:{fontSize:11,lineHeight:19},tripPath:{flexDirection:'row',alignItems:'center',paddingHorizontal:18,gap:10,height:52},pathStop:{alignItems:'center'},pathLine:{flex:1,borderTopWidth:1,borderStyle:'dashed',borderColor:'#a89d80'},tripStatus:{fontFamily:titleFont,fontSize:21,lineHeight:30,color:colors.ink,textAlign:'center',marginTop:12},tabs:{flexDirection:'row',gap:18,borderBottomWidth:1,borderColor:'#dbc9ac'},tab:{minHeight:48,padding:9,borderBottomWidth:2,borderColor:'transparent',justifyContent:'center'},tabSelected:{borderColor:colors.green},tabText:{fontFamily:titleFont,fontSize:16,color:colors.muted},smallCards:{flexDirection:'row',flexWrap:'wrap',gap:12,justifyContent:'space-between',paddingBottom:8},reward:{fontFamily:titleFont,fontSize:19,lineHeight:28,textAlign:'center',color:colors.ink},account:{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:8,borderBottomWidth:1,borderColor:'#e5d8c5'},choice:{flexDirection:'row',gap:14,paddingHorizontal:8,paddingVertical:14,alignItems:'center',minHeight:70,borderBottomWidth:1,borderColor:'#e5d8c5'},choiceTitle:{fontFamily:titleFont,fontSize:20,lineHeight:29,color:colors.ink}});

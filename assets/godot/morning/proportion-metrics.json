@@ -1,0 +1,515 @@
+{
+  "method": "RGBA source reads only; alpha>=128. Bounds quantify output after fixed scales, not the sizing algorithm. All original image pixels, full frame sequences, rects, anchors and FPS preserved.",
+  "clips": {
+    "walk_front": {
+      "frames": 121,
+      "fps": 24,
+      "effective_scale": 0.5833333333333334,
+      "source_width": {
+        "min": 154,
+        "median": 160,
+        "max": 196
+      },
+      "source_height": {
+        "min": 233,
+        "median": 238,
+        "max": 240
+      },
+      "visible_width": [
+        89.833,
+        93.333,
+        114.333
+      ],
+      "visible_height": [
+        135.917,
+        138.833,
+        140.0
+      ],
+      "foot_delta_range": [
+        -5.153,
+        0.097
+      ],
+      "first": {
+        "width": 183,
+        "height": 240,
+        "bounds": [
+          12,
+          16,
+          195,
+          256
+        ],
+        "foot_delta": 0.16568047337278813
+      },
+      "last": {
+        "width": 183,
+        "height": 240,
+        "bounds": [
+          12,
+          16,
+          195,
+          256
+        ],
+        "foot_delta": 0.16568047337278813
+      }
+    },
+    "walk_back": {
+      "frames": 121,
+      "fps": 24,
+      "effective_scale": 0.5833333333333334,
+      "source_width": {
+        "min": 127,
+        "median": 128,
+        "max": 130
+      },
+      "source_height": {
+        "min": 232,
+        "median": 241,
+        "max": 245
+      },
+      "visible_width": [
+        74.083,
+        74.667,
+        75.833
+      ],
+      "visible_height": [
+        135.333,
+        140.583,
+        142.917
+      ],
+      "foot_delta_range": [
+        -3.228,
+        4.939
+      ],
+      "first": {
+        "width": 129,
+        "height": 240,
+        "bounds": [
+          13,
+          13,
+          142,
+          253
+        ],
+        "foot_delta": 0.4666666666666117
+      },
+      "last": {
+        "width": 129,
+        "height": 240,
+        "bounds": [
+          13,
+          13,
+          142,
+          253
+        ],
+        "foot_delta": 0.4666666666666117
+      }
+    },
+    "walk_left": {
+      "frames": 121,
+      "fps": 24,
+      "effective_scale": 0.43,
+      "source_width": {
+        "min": 476,
+        "median": 478,
+        "max": 481
+      },
+      "source_height": {
+        "min": 209,
+        "median": 212,
+        "max": 217
+      },
+      "visible_width": [
+        204.68,
+        205.54,
+        206.83
+      ],
+      "visible_height": [
+        89.87,
+        91.16,
+        93.31
+      ],
+      "foot_delta_range": [
+        -0.316,
+        0.974
+      ],
+      "first": {
+        "width": 481,
+        "height": 215,
+        "bounds": [
+          12,
+          12,
+          493,
+          227
+        ],
+        "foot_delta": 0.26443768996961126
+      },
+      "last": {
+        "width": 480,
+        "height": 214,
+        "bounds": [
+          13,
+          13,
+          493,
+          227
+        ],
+        "foot_delta": 0.26443768996961126
+      }
+    },
+    "walk_right": {
+      "frames": 121,
+      "fps": 24,
+      "effective_scale": 0.43,
+      "source_width": {
+        "min": 474,
+        "median": 478,
+        "max": 484
+      },
+      "source_height": {
+        "min": 222,
+        "median": 227,
+        "max": 229
+      },
+      "visible_width": [
+        203.82,
+        205.54,
+        208.12
+      ],
+      "visible_height": [
+        95.46,
+        97.61,
+        98.47
+      ],
+      "foot_delta_range": [
+        0.121,
+        0.981
+      ],
+      "first": {
+        "width": 479,
+        "height": 229,
+        "bounds": [
+          14,
+          12,
+          493,
+          241
+        ],
+        "foot_delta": 1.2812172088142972
+      },
+      "last": {
+        "width": 480,
+        "height": 229,
+        "bounds": [
+          13,
+          12,
+          493,
+          241
+        ],
+        "foot_delta": 1.2812172088142972
+      }
+    },
+    "sleep": {
+      "frames": 121,
+      "fps": 24,
+      "effective_scale": 0.5919003115264797,
+      "source_width": {
+        "min": 319,
+        "median": 321,
+        "max": 341
+      },
+      "source_height": {
+        "min": 155,
+        "median": 164,
+        "max": 164
+      },
+      "visible_width": [
+        188.816,
+        190.0,
+        201.838
+      ],
+      "visible_height": [
+        91.745,
+        97.072,
+        97.072
+      ],
+      "foot_delta_range": [
+        0.312,
+        0.312
+      ],
+      "first": {
+        "width": 320,
+        "height": 164,
+        "bounds": [
+          29,
+          9,
+          349,
+          173
+        ],
+        "foot_delta": 0.5264797507788046
+      },
+      "last": {
+        "width": 320,
+        "height": 164,
+        "bounds": [
+          29,
+          9,
+          349,
+          173
+        ],
+        "foot_delta": 0.5264797507788046
+      }
+    },
+    "eat": {
+      "frames": 121,
+      "fps": 24,
+      "effective_scale": 0.5919003115264797,
+      "source_width": {
+        "min": 320,
+        "median": 321,
+        "max": 321
+      },
+      "source_height": {
+        "min": 154,
+        "median": 163,
+        "max": 164
+      },
+      "visible_width": [
+        189.408,
+        190.0,
+        190.0
+      ],
+      "visible_height": [
+        91.153,
+        96.48,
+        97.072
+      ],
+      "foot_delta_range": [
+        0.312,
+        0.312
+      ],
+      "first": {
+        "width": 320,
+        "height": 164,
+        "bounds": [
+          9,
+          9,
+          329,
+          173
+        ],
+        "foot_delta": 0.5264797507788046
+      },
+      "last": {
+        "width": 320,
+        "height": 164,
+        "bounds": [
+          9,
+          9,
+          329,
+          173
+        ],
+        "foot_delta": 0.5264797507788046
+      }
+    },
+    "pet": {
+      "frames": 121,
+      "fps": 24,
+      "effective_scale": 0.5919003115264797,
+      "source_width": {
+        "min": 319,
+        "median": 323,
+        "max": 326
+      },
+      "source_height": {
+        "min": 163,
+        "median": 172,
+        "max": 176
+      },
+      "visible_width": [
+        188.816,
+        191.184,
+        192.96
+      ],
+      "visible_height": [
+        96.48,
+        101.807,
+        104.174
+      ],
+      "foot_delta_range": [
+        -0.06,
+        -0.06
+      ],
+      "first": {
+        "width": 319,
+        "height": 163,
+        "bounds": [
+          16,
+          22,
+          335,
+          185
+        ],
+        "foot_delta": -0.10072689511943622
+      },
+      "last": {
+        "width": 319,
+        "height": 163,
+        "bounds": [
+          16,
+          22,
+          335,
+          185
+        ],
+        "foot_delta": -0.10072689511943622
+      }
+    },
+    "lie_down": {
+      "frames": 121,
+      "fps": 24,
+      "effective_scale": 0.5833333333333334,
+      "source_width": {
+        "min": 163,
+        "median": 235,
+        "max": 264
+      },
+      "source_height": {
+        "min": 131,
+        "median": 155,
+        "max": 258
+      },
+      "visible_width": [
+        95.083,
+        137.083,
+        154.0
+      ],
+      "visible_height": [
+        76.417,
+        90.417,
+        150.5
+      ],
+      "foot_delta_range": [
+        5.647,
+        9.147
+      ],
+      "first": {
+        "width": 183,
+        "height": 256,
+        "bounds": [
+          86,
+          11,
+          269,
+          267
+        ],
+        "foot_delta": 9.67983271375465
+      },
+      "last": {
+        "width": 240,
+        "height": 131,
+        "bounds": [
+          57,
+          137,
+          297,
+          268
+        ],
+        "foot_delta": 10.67983271375465
+      }
+    },
+    "rise": {
+      "frames": 121,
+      "fps": 24,
+      "effective_scale": 0.5833333333333334,
+      "source_width": {
+        "min": 153,
+        "median": 232,
+        "max": 244
+      },
+      "source_height": {
+        "min": 124,
+        "median": 166,
+        "max": 242
+      },
+      "visible_width": [
+        89.25,
+        135.333,
+        142.333
+      ],
+      "visible_height": [
+        72.333,
+        96.833,
+        141.167
+      ],
+      "foot_delta_range": [
+        -2.897,
+        3.519
+      ],
+      "first": {
+        "width": 240,
+        "height": 124,
+        "bounds": [
+          47,
+          130,
+          287,
+          254
+        ],
+        "foot_delta": 2.032992565055764
+      },
+      "last": {
+        "width": 183,
+        "height": 242,
+        "bounds": [
+          76,
+          11,
+          259,
+          253
+        ],
+        "foot_delta": 1.032992565055764
+      }
+    },
+    "rest": {
+      "frames": 121,
+      "fps": 24,
+      "effective_scale": 0.19730010384215993,
+      "source_width": {
+        "min": 959,
+        "median": 963,
+        "max": 1023
+      },
+      "source_height": {
+        "min": 466,
+        "median": 491,
+        "max": 491
+      },
+      "visible_width": [
+        189.211,
+        190.0,
+        201.838
+      ],
+      "visible_height": [
+        91.942,
+        96.874,
+        96.874
+      ],
+      "foot_delta_range": [
+        0.0,
+        0.0
+      ],
+      "first": {
+        "width": 963,
+        "height": 491,
+        "bounds": [
+          76,
+          16,
+          1039,
+          507
+        ],
+        "foot_delta": 0
+      },
+      "last": {
+        "width": 963,
+        "height": 491,
+        "bounds": [
+          76,
+          16,
+          1039,
+          507
+        ],
+        "foot_delta": 0
+      }
+    }
+  }
+}

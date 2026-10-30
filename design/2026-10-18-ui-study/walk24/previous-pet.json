@@ -1,0 +1,673 @@
+{
+  "version": 2,
+  "id": "calico-home-v2",
+  "name": "三花猫",
+  "speed": 48,
+  "scale": 0.17,
+  "clips": {
+    "walk_front": {
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "texture": "res://assets/pets/front.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            489
+          ]
+        },
+        {
+          "texture": "res://assets/pets/front.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            493
+          ]
+        },
+        {
+          "texture": "res://assets/pets/front.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            493
+          ]
+        },
+        {
+          "texture": "res://assets/pets/front.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            462
+          ]
+        },
+        {
+          "texture": "res://assets/pets/front.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            462
+          ]
+        },
+        {
+          "texture": "res://assets/pets/front.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            468
+          ]
+        }
+      ]
+    },
+    "idle_front": {
+      "fps": 1,
+      "loop": true,
+      "frames": [
+        {
+          "texture": "res://assets/pets/front.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            489
+          ]
+        }
+      ]
+    },
+    "walk_back": {
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "texture": "res://assets/pets/back.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            460
+          ]
+        },
+        {
+          "texture": "res://assets/pets/back.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            462
+          ]
+        },
+        {
+          "texture": "res://assets/pets/back.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            475
+          ]
+        },
+        {
+          "texture": "res://assets/pets/back.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            455
+          ]
+        },
+        {
+          "texture": "res://assets/pets/back.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            455
+          ]
+        },
+        {
+          "texture": "res://assets/pets/back.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            455
+          ]
+        }
+      ]
+    },
+    "idle_back": {
+      "fps": 1,
+      "loop": true,
+      "frames": [
+        {
+          "texture": "res://assets/pets/back.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            460
+          ]
+        }
+      ]
+    },
+    "walk_left": {
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "texture": "res://assets/pets/left.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            470
+          ]
+        },
+        {
+          "texture": "res://assets/pets/left.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            470
+          ]
+        },
+        {
+          "texture": "res://assets/pets/left.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            470
+          ]
+        },
+        {
+          "texture": "res://assets/pets/left.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            426
+          ]
+        },
+        {
+          "texture": "res://assets/pets/left.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            427
+          ]
+        },
+        {
+          "texture": "res://assets/pets/left.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            430
+          ]
+        }
+      ]
+    },
+    "idle_left": {
+      "fps": 1,
+      "loop": true,
+      "frames": [
+        {
+          "texture": "res://assets/pets/left.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            470
+          ]
+        }
+      ]
+    },
+    "walk_right": {
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "texture": "res://assets/pets/right.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            471
+          ]
+        },
+        {
+          "texture": "res://assets/pets/right.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            468
+          ]
+        },
+        {
+          "texture": "res://assets/pets/right.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            467
+          ]
+        },
+        {
+          "texture": "res://assets/pets/right.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            430
+          ]
+        },
+        {
+          "texture": "res://assets/pets/right.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            424
+          ]
+        },
+        {
+          "texture": "res://assets/pets/right.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            423
+          ]
+        }
+      ]
+    },
+    "idle_right": {
+      "fps": 1,
+      "loop": true,
+      "frames": [
+        {
+          "texture": "res://assets/pets/right.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            471
+          ]
+        }
+      ]
+    },
+    "sleep": {
+      "fps": 2,
+      "loop": true,
+      "frames": [
+        {
+          "texture": "res://assets/pets/sleep.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            446
+          ]
+        },
+        {
+          "texture": "res://assets/pets/sleep.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            446
+          ]
+        },
+        {
+          "texture": "res://assets/pets/sleep.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            445
+          ]
+        },
+        {
+          "texture": "res://assets/pets/sleep.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            416
+          ]
+        },
+        {
+          "texture": "res://assets/pets/sleep.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            416
+          ]
+        },
+        {
+          "texture": "res://assets/pets/sleep.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            416
+          ]
+        }
+      ]
+    },
+    "eat": {
+      "fps": 4,
+      "loop": true,
+      "frames": [
+        {
+          "texture": "res://assets/pets/eat.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            468
+          ]
+        },
+        {
+          "texture": "res://assets/pets/eat.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            469
+          ]
+        },
+        {
+          "texture": "res://assets/pets/eat.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            475
+          ]
+        },
+        {
+          "texture": "res://assets/pets/eat.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            420
+          ]
+        },
+        {
+          "texture": "res://assets/pets/eat.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            421
+          ]
+        },
+        {
+          "texture": "res://assets/pets/eat.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            421
+          ]
+        }
+      ]
+    },
+    "pet": {
+      "fps": 4,
+      "loop": false,
+      "frames": [
+        {
+          "texture": "res://assets/pets/pet.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            498
+          ]
+        },
+        {
+          "texture": "res://assets/pets/pet.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            497
+          ]
+        },
+        {
+          "texture": "res://assets/pets/pet.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            497
+          ]
+        },
+        {
+          "texture": "res://assets/pets/pet.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            471
+          ]
+        },
+        {
+          "texture": "res://assets/pets/pet.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            470
+          ]
+        },
+        {
+          "texture": "res://assets/pets/pet.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "anchor": [
+            256,
+            470
+          ]
+        }
+      ]
+    }
+  }
+}

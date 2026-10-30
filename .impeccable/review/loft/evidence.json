@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-30",
+  "engine": "4.5.1",
+  "capture": "Actual desktop Godot viewport, not device screenshot",
+  "viewports": [
+    [
+      390,
+      844
+    ],
+    [
+      430,
+      932
+    ]
+  ],
+  "video": {
+    "frames": 178,
+    "fps": 10
+  },
+  "checks": {
+    "scaffold": "passed",
+    "mobile_typecheck": "passed",
+    "mobile_targeted_tests": "24 passed",
+    "godot_rn_bridge": "passed",
+    "godot_cat_life": "10 activities passed",
+    "godot_loft_table": "passed",
+    "mobile_game_packaging": "iOS and Android passed",
+    "mobile_js_bundles": "iOS and Android passed",
+    "device_install": "not performed"
+  },
+  "sha256": {
+    "apps/godot/scripts/pet.gd": "8b83427b17341b39c3c9c50c7a3e7f68744f68135edd82b6ecc2cc8c17a45728",
+    "apps/godot/scripts/room.gd": "8c3d8d63a8ba7a6e0dbccb1ae4932220c47b7cd8ba466d538c3d7737b8317546",
+    "apps/godot/scripts/cat_life.gd": "97967367bc7247640ebeb39d9edf6a2651286e4efda335f6ee8816a644c56397",
+    "apps/godot/data/morning-interior.json": "bafa942addc6da159c42429a41a8c9ddc9336ace7d5d159600a1e46392d94ee0",
+    "assets/godot/loft/room-v1.png": "df6ba21ff4996c2d8e1404fc6744fef30183e3cf8b8acad9ff4e0bf1433955ec",
+    "assets/godot/loft/cat-table-v1.png": "7787f2b029ac5db87c35dc375aeb1f7a6aee669bbf6ba8d98e0379ac3beb1475",
+    "assets/godot/loft/furniture-v1.png": "086a3871aeda52a6bd51df4af1420910aa3c01759477afab2b77b75422a7adf8",
+    ".impeccable/review/loft/table-demo.mp4": "aac564695313f0f98e5adc042b4ad53af11968717cff18aa84000e7c5e5730c3"
+  }
+}

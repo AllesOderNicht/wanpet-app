@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-22",
+  "status": "Approved morning UI copied for native implementation; native visual verification pending.",
+  "author": "Existing Wanpet project artwork; original generation recorded in approved prototype.",
+  "license": "Original project AI-generated artwork; no new third-party rights assertion.",
+  "source": "design/2026-10-22-morning-ui/assets/provenance.json",
+  "files": [
+    {
+      "file": "room.png",
+      "source": "design/2026-10-22-morning-ui/assets/room.png",
+      "bytes": 2682227,
+      "size": [
+        853,
+        1844
+      ],
+      "sha256": "6d10f89d4eefde3dc460a2ef03fae6cb823b60f9b428a23bfc971d3f301c30eb",
+      "method": "Byte-for-byte copy. No crop, resize, recoloring or redraw."
+    },
+    {
+      "file": "courtyard.png",
+      "source": "design/2026-10-22-morning-ui/assets/courtyard.png",
+      "bytes": 3159462,
+      "size": [
+        853,
+        1844
+      ],
+      "sha256": "1e56dded7f902d305623870b49be235fb1ea3fff107e7c5bfbbb5b2f654bdd74",
+      "method": "Byte-for-byte copy. No crop, resize, recoloring or redraw."
+    },
+    {
+      "file": "bundle.png",
+      "source": "design/2026-10-22-morning-ui/assets/bundle.png",
+      "bytes": 2719132,
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "81f4a30310e1efbe0299fb48dd895c3b29655c08af850162db256a42b06ae287",
+      "method": "Byte-for-byte copy. No crop, resize, recoloring or redraw."
+    }
+  ]
+}

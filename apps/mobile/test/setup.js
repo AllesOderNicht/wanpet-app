@@ -1,0 +1,16 @@
+jest.mock('@borndotcom/react-native-godot',()=>({
+ RTNGodotView:require('react-native').View,
+ RTNGodot:{pause:jest.fn(),resume:jest.fn()},
+ runOnGodotThread:jest.fn(),
+}));
+jest.mock('react-native-safe-area-context',()=>require('react-native-safe-area-context/jest/mock').default);
+jest.mock('react-native-screens',()=>({
+ ...jest.requireActual('react-native-screens'),
+ ScreenStack:require('react-native').View,
+ ScreenStackItem:({children,...props})=>props['aria-hidden']?null:require('react').createElement(require('react-native').View,{style:props.style},children),
+}));
+jest.mock('../src/components/GlassSurface',()=>({
+ GlassSurface:require('react-native').View,
+ GlassIcon:require('react-native').View,
+}));
+jest.mock('react-native-image-picker',()=>({launchCamera:jest.fn(async()=>({didCancel:true})),launchImageLibrary:jest.fn(async()=>({didCancel:true}))}));

@@ -1,0 +1,674 @@
+{
+  "eat": {
+    "bounds": [
+      [
+        0,
+        256,
+        511,
+        765,
+        1023,
+        1279,
+        1536
+      ],
+      [
+        0,
+        268,
+        514,
+        768,
+        1024
+      ]
+    ],
+    "uniqueFrames": 24,
+    "transparentFraction": 0.4463380177815755,
+    "frames": [
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          0,
+          0,
+          256,
+          268
+        ],
+        "anchor": [
+          132.5,
+          243
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          256,
+          0,
+          255,
+          268
+        ],
+        "anchor": [
+          131.5,
+          242
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          511,
+          0,
+          254,
+          268
+        ],
+        "anchor": [
+          132.5,
+          243
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          765,
+          0,
+          258,
+          268
+        ],
+        "anchor": [
+          133.5,
+          242
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          1023,
+          0,
+          256,
+          268
+        ],
+        "anchor": [
+          132.0,
+          242
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          1279,
+          0,
+          257,
+          268
+        ],
+        "anchor": [
+          131.5,
+          243
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          0,
+          268,
+          256,
+          246
+        ],
+        "anchor": [
+          132.0,
+          211
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          256,
+          268,
+          255,
+          246
+        ],
+        "anchor": [
+          132.0,
+          211
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          511,
+          268,
+          254,
+          246
+        ],
+        "anchor": [
+          131.5,
+          211
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          765,
+          268,
+          258,
+          246
+        ],
+        "anchor": [
+          134.5,
+          211
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          1023,
+          268,
+          256,
+          246
+        ],
+        "anchor": [
+          132.5,
+          211
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          1279,
+          268,
+          257,
+          246
+        ],
+        "anchor": [
+          132.0,
+          211
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          0,
+          514,
+          256,
+          254
+        ],
+        "anchor": [
+          132.0,
+          209
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          256,
+          514,
+          255,
+          254
+        ],
+        "anchor": [
+          131.5,
+          209
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          511,
+          514,
+          254,
+          254
+        ],
+        "anchor": [
+          131.5,
+          209
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          765,
+          514,
+          258,
+          254
+        ],
+        "anchor": [
+          133.5,
+          209
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          1023,
+          514,
+          256,
+          254
+        ],
+        "anchor": [
+          132.5,
+          209
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          1279,
+          514,
+          257,
+          254
+        ],
+        "anchor": [
+          131.5,
+          209
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          0,
+          768,
+          256,
+          256
+        ],
+        "anchor": [
+          132.5,
+          193
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          256,
+          768,
+          255,
+          256
+        ],
+        "anchor": [
+          131.5,
+          192
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          511,
+          768,
+          254,
+          256
+        ],
+        "anchor": [
+          131.5,
+          192
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          765,
+          768,
+          258,
+          256
+        ],
+        "anchor": [
+          134.0,
+          192
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          1023,
+          768,
+          256,
+          256
+        ],
+        "anchor": [
+          132.5,
+          192
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/eat.png",
+        "rect": [
+          1279,
+          768,
+          257,
+          256
+        ],
+        "anchor": [
+          131.5,
+          192
+        ]
+      }
+    ]
+  },
+  "pet": {
+    "bounds": [
+      [
+        0,
+        262,
+        515,
+        770,
+        1024,
+        1279,
+        1536
+      ],
+      [
+        0,
+        253,
+        505,
+        754,
+        1024
+      ]
+    ],
+    "uniqueFrames": 24,
+    "transparentFraction": 0.3224061330159505,
+    "frames": [
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          0,
+          0,
+          262,
+          253
+        ],
+        "anchor": [
+          129.5,
+          245
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          262,
+          0,
+          253,
+          253
+        ],
+        "anchor": [
+          119.5,
+          244
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          515,
+          0,
+          255,
+          253
+        ],
+        "anchor": [
+          119.0,
+          244
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          770,
+          0,
+          254,
+          253
+        ],
+        "anchor": [
+          116.0,
+          243
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          1024,
+          0,
+          255,
+          253
+        ],
+        "anchor": [
+          119.0,
+          244
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          1279,
+          0,
+          257,
+          253
+        ],
+        "anchor": [
+          119.0,
+          244
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          0,
+          253,
+          262,
+          252
+        ],
+        "anchor": [
+          130.5,
+          245
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          262,
+          253,
+          253,
+          252
+        ],
+        "anchor": [
+          120.0,
+          244
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          515,
+          253,
+          255,
+          252
+        ],
+        "anchor": [
+          121.5,
+          244
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          770,
+          253,
+          254,
+          252
+        ],
+        "anchor": [
+          119.0,
+          244
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          1024,
+          253,
+          255,
+          252
+        ],
+        "anchor": [
+          120.5,
+          244
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          1279,
+          253,
+          257,
+          252
+        ],
+        "anchor": [
+          120.5,
+          244
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          0,
+          505,
+          262,
+          249
+        ],
+        "anchor": [
+          133.0,
+          241
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          262,
+          505,
+          253,
+          249
+        ],
+        "anchor": [
+          124.0,
+          241
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          515,
+          505,
+          255,
+          249
+        ],
+        "anchor": [
+          123.0,
+          241
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          770,
+          505,
+          254,
+          249
+        ],
+        "anchor": [
+          122.5,
+          241
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          1024,
+          505,
+          255,
+          249
+        ],
+        "anchor": [
+          127.5,
+          242
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          1279,
+          505,
+          257,
+          249
+        ],
+        "anchor": [
+          127.0,
+          241
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          0,
+          754,
+          262,
+          270
+        ],
+        "anchor": [
+          133.0,
+          246
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          262,
+          754,
+          253,
+          270
+        ],
+        "anchor": [
+          124.5,
+          243
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          515,
+          754,
+          255,
+          270
+        ],
+        "anchor": [
+          120.0,
+          243
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          770,
+          754,
+          254,
+          270
+        ],
+        "anchor": [
+          116.0,
+          244
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          1024,
+          754,
+          255,
+          270
+        ],
+        "anchor": [
+          117.0,
+          243
+        ]
+      },
+      {
+        "texture": "res://assets/pets/life24/pet.png",
+        "rect": [
+          1279,
+          754,
+          257,
+          270
+        ],
+        "anchor": [
+          115.5,
+          242
+        ]
+      }
+    ]
+  }
+}

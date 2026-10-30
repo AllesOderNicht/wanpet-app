@@ -1,0 +1,257 @@
+{
+  "scope": "2D walking atlases and pack; not full-body rig or iOS validation",
+  "frames": [
+    {
+      "direction": "left",
+      "index": 0,
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "bounds": [
+        17,
+        86,
+        481,
+        368
+      ],
+      "anchor": [
+        0.50293,
+        0.886719
+      ],
+      "pixelHash": "1f7866bd6b2dd78ad6050b98b47bdaa18aa891faef733022225191582313359d"
+    },
+    {
+      "direction": "left",
+      "index": 1,
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "bounds": [
+        17,
+        86,
+        475,
+        375
+      ],
+      "anchor": [
+        0.49707,
+        0.900391
+      ],
+      "pixelHash": "19398f60302029ae7cfc0e045774f1685c4026fd71e6e5233e0f3b8cf88cfc40"
+    },
+    {
+      "direction": "left",
+      "index": 2,
+      "rect": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "bounds": [
+        15,
+        86,
+        488,
+        368
+      ],
+      "anchor": [
+        0.505859,
+        0.886719
+      ],
+      "pixelHash": "a07acc5211809cbeec82ca0406a4c73f3e62dd3bd166fc8135c346a0cf7df16f"
+    },
+    {
+      "direction": "left",
+      "index": 3,
+      "rect": [
+        0,
+        512,
+        522,
+        512
+      ],
+      "bounds": [
+        24,
+        70,
+        491,
+        357
+      ],
+      "anchor": [
+        0.516284,
+        0.833984
+      ],
+      "pixelHash": "dbc46950c7a9b0569935fcd19f9f54bb423a58907154b1aee9ae8cd3840fb1d8"
+    },
+    {
+      "direction": "left",
+      "index": 4,
+      "rect": [
+        522,
+        512,
+        502,
+        512
+      ],
+      "bounds": [
+        14,
+        70,
+        477,
+        363
+      ],
+      "anchor": [
+        0.502988,
+        0.845703
+      ],
+      "pixelHash": "01505013547700042907749b2b10e8e879b61f2b793b46ce45d66a8a0982ad7f"
+    },
+    {
+      "direction": "left",
+      "index": 5,
+      "rect": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "bounds": [
+        25,
+        69,
+        478,
+        359
+      ],
+      "anchor": [
+        0.515625,
+        0.835938
+      ],
+      "pixelHash": "c2f07f4110d601c2e841ad510b7eecf6a31e9b3fd76c1072aeede0785e57bef9"
+    },
+    {
+      "direction": "right",
+      "index": 0,
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "bounds": [
+        29,
+        85,
+        472,
+        364
+      ],
+      "anchor": [
+        0.517578,
+        0.876953
+      ],
+      "pixelHash": "7cf7b131f0dfe2b691c731016c3bb802d5fcec5a84a7940c05551c714464c73e"
+    },
+    {
+      "direction": "right",
+      "index": 1,
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "bounds": [
+        45,
+        87,
+        447,
+        367
+      ],
+      "anchor": [
+        0.524414,
+        0.886719
+      ],
+      "pixelHash": "34a5adb99cbac03ada48ef6fc06003a6a312fdce56cb6b0bf4d6b06fb0786f48"
+    },
+    {
+      "direction": "right",
+      "index": 2,
+      "rect": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "bounds": [
+        37,
+        83,
+        457,
+        368
+      ],
+      "anchor": [
+        0.518555,
+        0.880859
+      ],
+      "pixelHash": "cd81f1f9fc75a809d1730e7ab7587b8f27af96e2d7016ace665356dbe48cc769"
+    },
+    {
+      "direction": "right",
+      "index": 3,
+      "rect": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "bounds": [
+        31,
+        61,
+        465,
+        356
+      ],
+      "anchor": [
+        0.514648,
+        0.814453
+      ],
+      "pixelHash": "76e2136d7b1d1033d8dae309062f6e2b6b118fc44c17b316898ab8e01ca4cc19"
+    },
+    {
+      "direction": "right",
+      "index": 4,
+      "rect": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "bounds": [
+        51,
+        61,
+        443,
+        357
+      ],
+      "anchor": [
+        0.532227,
+        0.816406
+      ],
+      "pixelHash": "67a29254d5fc23482236bb8c55746f52d54c9e26c813f33c71718f4971a4f7cb"
+    },
+    {
+      "direction": "right",
+      "index": 5,
+      "rect": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "bounds": [
+        23,
+        60,
+        473,
+        355
+      ],
+      "anchor": [
+        0.506836,
+        0.810547
+      ],
+      "pixelHash": "1f8f89ae019d6b6b30e84cedee23d2b5908fe00208d34f82495f6a2369ed447e"
+    }
+  ]
+}

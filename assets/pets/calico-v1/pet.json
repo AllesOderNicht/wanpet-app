@@ -1,0 +1,289 @@
+{
+  "version": 1,
+  "id": "calico-window-v1",
+  "name": "三花猫",
+  "species": "猫",
+  "displayHeight": 145,
+  "speed": 54,
+  "textures": {
+    "idle": {
+      "file": "idle.webp",
+      "width": 768,
+      "height": 768
+    },
+    "walk-left": {
+      "file": "walk-left.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    "walk-right": {
+      "file": "walk-right.webp",
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "clips": {
+    "idle": {
+      "fps": 1,
+      "frames": [
+        {
+          "texture": "idle",
+          "rect": [
+            0,
+            0,
+            768,
+            768
+          ],
+          "bounds": [
+            117,
+            68,
+            537,
+            650
+          ],
+          "anchor": [
+            0.501953,
+            0.934896
+          ]
+        }
+      ]
+    },
+    "walkLeft": {
+      "fps": 8,
+      "frames": [
+        {
+          "texture": "walk-left",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            17,
+            86,
+            481,
+            368
+          ],
+          "anchor": [
+            0.50293,
+            0.886719
+          ]
+        },
+        {
+          "texture": "walk-left",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            17,
+            86,
+            475,
+            375
+          ],
+          "anchor": [
+            0.49707,
+            0.900391
+          ]
+        },
+        {
+          "texture": "walk-left",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            15,
+            86,
+            488,
+            368
+          ],
+          "anchor": [
+            0.505859,
+            0.886719
+          ]
+        },
+        {
+          "texture": "walk-left",
+          "rect": [
+            0,
+            512,
+            522,
+            512
+          ],
+          "bounds": [
+            24,
+            70,
+            491,
+            357
+          ],
+          "anchor": [
+            0.516284,
+            0.833984
+          ]
+        },
+        {
+          "texture": "walk-left",
+          "rect": [
+            522,
+            512,
+            502,
+            512
+          ],
+          "bounds": [
+            14,
+            70,
+            477,
+            363
+          ],
+          "anchor": [
+            0.502988,
+            0.845703
+          ]
+        },
+        {
+          "texture": "walk-left",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            25,
+            69,
+            478,
+            359
+          ],
+          "anchor": [
+            0.515625,
+            0.835938
+          ]
+        }
+      ]
+    },
+    "walkRight": {
+      "fps": 8,
+      "frames": [
+        {
+          "texture": "walk-right",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            29,
+            85,
+            472,
+            364
+          ],
+          "anchor": [
+            0.517578,
+            0.876953
+          ]
+        },
+        {
+          "texture": "walk-right",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            45,
+            87,
+            447,
+            367
+          ],
+          "anchor": [
+            0.524414,
+            0.886719
+          ]
+        },
+        {
+          "texture": "walk-right",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            37,
+            83,
+            457,
+            368
+          ],
+          "anchor": [
+            0.518555,
+            0.880859
+          ]
+        },
+        {
+          "texture": "walk-right",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            31,
+            61,
+            465,
+            356
+          ],
+          "anchor": [
+            0.514648,
+            0.814453
+          ]
+        },
+        {
+          "texture": "walk-right",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            51,
+            61,
+            443,
+            357
+          ],
+          "anchor": [
+            0.532227,
+            0.816406
+          ]
+        },
+        {
+          "texture": "walk-right",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            23,
+            60,
+            473,
+            355
+          ],
+          "anchor": [
+            0.506836,
+            0.810547
+          ]
+        }
+      ]
+    }
+  }
+}

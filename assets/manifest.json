@@ -1,0 +1,2543 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "calico_character_reference_v1",
+      "path": "assets/characters/calico/calico-character-reference-v1.png",
+      "kind": "character-reference",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2201704,
+      "sha256": "d6bf7ff9677af6d784ca17fbbbf1852ff40924a24e64be012d0eaab3e8785dc5",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "identity-reference",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/calico-character-reference-v1.txt",
+        "referenceAssetIds": [],
+        "originalFile": "exec-6c363260-7945-4ebf-901a-25a253f9571c.png",
+        "promptSha256": "767e8a38d44a5c7583c82015ac7c2f672c9938f9752bc450b7a23711c2a34389"
+      },
+      "usage": "角色身份参考",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      }
+    },
+    {
+      "id": "home_window_v1",
+      "path": "assets/concepts/home/home-window-v1.png",
+      "kind": "ui-concept",
+      "width": 853,
+      "height": 1844,
+      "bytes": 2386611,
+      "sha256": "8bd6870f42ad1ea72c1cc71f9ee5e26f66a35a4d0d66968ddbff0ce36dafcea9",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "selected-direction",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/home-window-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1"
+        ],
+        "originalFile": "exec-c2ef1815-9c58-4dcd-98b6-ad3cffa0d723.png",
+        "promptSha256": "15a5eb24d24c5922b280acdeef076d816fc3b93f429eab6e06e6ae39cf58530b"
+      },
+      "displayOrderInHomeIdeation": 1,
+      "usage": "家园方向探索",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      }
+    },
+    {
+      "id": "home_garden_v1",
+      "path": "assets/concepts/home/home-garden-v1.png",
+      "kind": "ui-concept",
+      "width": 853,
+      "height": 1844,
+      "bytes": 2480879,
+      "sha256": "c7d507cf53ac979c8a01767cc593389c521d5d93142bc9b91d295d9913f8357c",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "not-selected",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/home-garden-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1"
+        ],
+        "originalFile": "exec-c5e01e61-59ff-4de4-b95d-a24731abe05f.png",
+        "promptSha256": "6fdf7f92d2616ac073ba352f0f5ebc98ad4fe18e7d8f932b9408e32bdbdebd95"
+      },
+      "displayOrderInHomeIdeation": 2,
+      "usage": "家园方向探索",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      }
+    },
+    {
+      "id": "home_journal_v1",
+      "path": "assets/concepts/home/home-journal-v1.png",
+      "kind": "ui-concept",
+      "width": 853,
+      "height": 1844,
+      "bytes": 2431375,
+      "sha256": "20be2bac89114f15ff2ba07c22a1aa670bdfc8efa4504eff537cd05f5148f76d",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "not-selected",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/home-journal-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1"
+        ],
+        "originalFile": "exec-210654db-0f80-4bfa-ac3b-7f7017e2c33a.png",
+        "promptSha256": "e7a55ea52b987ac26733c4da5cde9af5990f321d51e90c161aedc020daf7c1d2"
+      },
+      "displayOrderInHomeIdeation": 3,
+      "usage": "家园方向探索",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      }
+    },
+    {
+      "id": "screen_bag_v1",
+      "path": "assets/ui/screens/bag-v1.png",
+      "kind": "ui-screen",
+      "width": 853,
+      "height": 1844,
+      "bytes": 2280525,
+      "sha256": "307d3d024451ce61c15377071fe993791c043feb131072b08f809725c0ae9ee5",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "final-design-reference",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/screen-bag-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1",
+          "home_window_v1"
+        ],
+        "originalFile": "exec-8dd3a86b-5350-4984-ba12-de9086b6aecf.png",
+        "promptSha256": "49a204f9d726b562db3ebcb379b2d5a80cddf8b13b66d94c85b7b2074bf92cb0"
+      },
+      "usage": "平面页面设计参考",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/ui/screens/bag-v1.webp",
+          "width": 780,
+          "height": 1687,
+          "bytes": 128630,
+          "sha256": "911ebcd91ce4a10be12ddde8734f7ee1c6c59657e2d3e00ab08582420c73fb30",
+          "alphaRange": [
+            255,
+            255
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "screen_return_v1",
+      "path": "assets/ui/screens/return-v1.png",
+      "kind": "ui-screen",
+      "width": 935,
+      "height": 1683,
+      "bytes": 2536040,
+      "sha256": "39f4b01d9b690003981af88510bf511dd2372c39eb858342511c4674459393e6",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "superseded",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/return-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1",
+          "home_window_v1"
+        ],
+        "originalFile": "exec-74a4c70d-d1af-4dbc-9977-71d77b1f8129.png",
+        "promptSha256": "9776fbefc54cc51b09435bce40722de039f108d94ae3f2d4af40329fe27b7991"
+      },
+      "usage": "平面页面设计参考",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      }
+    },
+    {
+      "id": "screen_collection_v1",
+      "path": "assets/ui/screens/collection-v1.png",
+      "kind": "ui-screen",
+      "width": 935,
+      "height": 1683,
+      "bytes": 2484718,
+      "sha256": "d9a675a8530af47a99dffd2a35aac1f6c7bc8382381e15f182629c39a2bd71ba",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "superseded",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/screen-collection-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1",
+          "home_window_v1"
+        ],
+        "originalFile": "exec-c6176325-d6cb-4332-9ef9-944819a2844e.png",
+        "promptSha256": "29660853f69efd1a1b19903274d323eb6029e4a47c9f210a768049898b22efb7"
+      },
+      "usage": "平面页面设计参考",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      }
+    },
+    {
+      "id": "calico_idle_v1",
+      "path": "assets/characters/calico/calico-idle-v1.png",
+      "kind": "character-sprite",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1346982,
+      "sha256": "f88b6b933061c9b9d185c9fb99204bb321b9f60125f84f20ff5574444690d841",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/calico-idle-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1",
+          "home_window_v1"
+        ],
+        "originalFile": "exec-3980169f-f46e-4667-939b-aabf37712964.png",
+        "promptSha256": "ce0da38de2e98e2c596e47580d7b1420c0adb19ab39283b97f7780a520593960"
+      },
+      "usage": "家园与归来角色静态姿势",
+      "layout": {
+        "anchor": [
+          0.50199,
+          0.93541
+        ],
+        "anchorMeaning": "visible group bottom center; alpha threshold 16; not a skeleton joint",
+        "fit": "contain",
+        "trim": false,
+        "mirror": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.589665,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            191,
+            111,
+            1068,
+            1173
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/characters/calico/calico-idle-v1.webp",
+          "width": 768,
+          "height": 768,
+          "bytes": 79948,
+          "sha256": "3c3879b47c57f21d482c756895d6691092a6718f721f9179acee602aeb959ddd",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        },
+        {
+          "format": "webp",
+          "path": "assets/pets/calico-v1/idle.webp",
+          "width": 768,
+          "height": 768,
+          "bytes": 79948,
+          "sha256": "3c3879b47c57f21d482c756895d6691092a6718f721f9179acee602aeb959ddd",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          },
+          "purpose": "Local animated pet pack idle texture",
+          "copiedFrom": "assets/exports/characters/calico/calico-idle-v1.webp"
+        }
+      ]
+    },
+    {
+      "id": "calico_pack_v1",
+      "path": "assets/characters/calico/calico-pack-v1.png",
+      "kind": "character-sprite",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1355160,
+      "sha256": "ff2f11410aa27e1b00c98369c513b3f6164fb309f2c32fe7755dbce7936426df",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/calico-pack-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1",
+          "home_window_v1"
+        ],
+        "originalFile": "exec-a3e345b4-4ac5-4e41-a169-b57205105f51.png",
+        "promptSha256": "895d507b36333c9e99de7eab19c1b8f7a0ffa1c83be023c436b3dbe7995e668c"
+      },
+      "usage": "家园与归来角色静态姿势",
+      "layout": {
+        "anchor": [
+          0.50678,
+          0.87241
+        ],
+        "anchorMeaning": "visible group bottom center; alpha threshold 16; not a skeleton joint",
+        "fit": "contain",
+        "trim": false,
+        "mirror": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.60677,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            51,
+            179,
+            1220,
+            1094
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/characters/calico/calico-pack-v1.webp",
+          "width": 768,
+          "height": 768,
+          "bytes": 85016,
+          "sha256": "bc006468f6bb19a9baa314d27e74f66b96e83b1fc26ab87448361ed5b800d250",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "calico_return_v1",
+      "path": "assets/characters/calico/calico-return-v1.png",
+      "kind": "character-sprite",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1473645,
+      "sha256": "54fa94d12bccaaa7f7fc4f915d0aade02efaa841a496a3a9da2e242152d39ad1",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/calico-return-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1",
+          "home_window_v1"
+        ],
+        "originalFile": "exec-e9cadc4c-9937-4ac4-83e4-19502e7b298f.png",
+        "promptSha256": "d61fa650f21257593180c911eb3b0114dfe71b55858cfc97783d0ac73aed7fd2"
+      },
+      "usage": "家园与归来角色静态姿势",
+      "layout": {
+        "anchor": [
+          0.51037,
+          0.89793
+        ],
+        "anchorMeaning": "visible group bottom center; alpha threshold 16; not a skeleton joint",
+        "fit": "contain",
+        "trim": false,
+        "mirror": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.559796,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            38,
+            127,
+            1242,
+            1126
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/characters/calico/calico-return-v1.webp",
+          "width": 768,
+          "height": 768,
+          "bytes": 90798,
+          "sha256": "b5ffcb6ef7994efb5bead835fb902a559ff25b0a21fa29c1de5564f76c9e74bc",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "calico_sleep_v1",
+      "path": "assets/characters/calico/calico-sleep-v1.png",
+      "kind": "character-sprite",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1271892,
+      "sha256": "97522fad29911267fc1fde2eb0d272202dc039b46b166352999d80e020823cce",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/calico-sleep-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1",
+          "home_window_v1"
+        ],
+        "originalFile": "exec-7fa2a059-e68b-4d93-b7dd-151fa01ea653.png",
+        "promptSha256": "6e57657f77302a7facd0b8b4c792888a7b04f71fde5c014c93f196d3f03dc136"
+      },
+      "usage": "家园与归来角色静态姿势",
+      "layout": {
+        "anchor": [
+          0.50319,
+          0.77273
+        ],
+        "anchorMeaning": "visible group bottom center; alpha threshold 16; not a skeleton joint",
+        "fit": "contain",
+        "trim": false,
+        "mirror": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.639584,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            41,
+            325,
+            1221,
+            969
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/characters/calico/calico-sleep-v1.webp",
+          "width": 768,
+          "height": 768,
+          "bytes": 77882,
+          "sha256": "86bcbd64033c56130278de65b289810f1fcb4f3b32f35cfc2e5f95deef6db5cd",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "calico_avatar_v1",
+      "path": "assets/characters/calico/calico-avatar-v1.png",
+      "kind": "character-avatar",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1689858,
+      "sha256": "cc68e4e6d1535829f400d0b7eaa67335bf4fafae6c1dbbbdae70fe426a80a4d1",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/calico-avatar-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1",
+          "home_window_v1"
+        ],
+        "originalFile": "exec-f01529e3-d2fd-448e-8ca1-89bc24e4c420.png",
+        "promptSha256": "7ce45d7ca5f0c90c8427c41222687a908b70540a61dda4ead8dceb27666841e7"
+      },
+      "usage": "宠物头像",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.492426,
+          "cornerAlpha": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            87,
+            134,
+            1166,
+            1196
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/characters/calico/calico-avatar-v1.webp",
+          "width": 768,
+          "height": 768,
+          "bytes": 102402,
+          "sha256": "51c83cfd1ca7230cb0d571014ed04581aa0aa1ce2c97e8238ce49a5273b96f55",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "calico_silhouette_v1",
+      "path": "assets/characters/calico/calico-silhouette-v1.png",
+      "kind": "character-silhouette",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 964266,
+      "sha256": "6745db73c719fd43547118bc741175f0cdfcb970095ca7416de70ede02e309b7",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/calico-silhouette-v1.txt",
+        "referenceAssetIds": [
+          "calico_idle_v1"
+        ],
+        "originalFile": "exec-fc7c83a4-ee0e-42ac-a511-caf9d238c2d7.png",
+        "promptSha256": "2cf8240bf63dc67f0bd0db8826df66352fa47ed6c8f702d405c2f3c78b587864"
+      },
+      "usage": "角色未发现剪影",
+      "layout": {
+        "anchor": [
+          0.49482,
+          0.93301
+        ],
+        "anchorMeaning": "visible group bottom center; alpha threshold 16; not a skeleton joint",
+        "fit": "contain",
+        "trim": false,
+        "mirror": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.598771,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            216,
+            112,
+            1025,
+            1170
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/characters/calico/calico-silhouette-v1.webp",
+          "width": 768,
+          "height": 768,
+          "bytes": 38732,
+          "sha256": "1006d4d5839441143f454799070995e8496280fbb85b0e116a73ef1d255a87bf",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "scene_interior_v1",
+      "path": "assets/scenes/home/interior-v1.png",
+      "kind": "scene-background",
+      "requiresAlpha": false,
+      "width": 941,
+      "height": 1672,
+      "bytes": 2743726,
+      "sha256": "31ff6405c9c2ebacaeee3bd973637e3f20a28e227dcbd8be56ba3f3f188c3d12",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/interior-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-f6f13830-ab0f-467a-adae-07ef432ac9e4.png",
+        "promptSha256": "d1d52348c983274393cd2c1a6aea1b7792309e579a9b99f8fd23912658990746"
+      },
+      "usage": "独立家园场景",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/scenes/home/interior-v1.webp",
+          "width": 780,
+          "height": 1386,
+          "bytes": 177574,
+          "sha256": "6521718676c72599682268e15e9b71671ecb6173c985f6711babf44d5ef1600b",
+          "alphaRange": [
+            255,
+            255
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "scene_courtyard_v1",
+      "path": "assets/scenes/home/courtyard-v1.png",
+      "kind": "scene-background",
+      "requiresAlpha": false,
+      "width": 941,
+      "height": 1672,
+      "bytes": 3072616,
+      "sha256": "125b5988b5a91254d969a49a47b87fd5e37eb13df013ee3703c3f6af8857b64f",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/courtyard-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-9bd22db5-df1a-4fc8-9f56-6b3ffecd2f73.png",
+        "promptSha256": "67f349dc99c12f7c21e349a72fe6b72ba112f421ca67f90db63e0f99a5a5ffa5"
+      },
+      "usage": "独立家园场景",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/scenes/home/courtyard-v1.webp",
+          "width": 780,
+          "height": 1386,
+          "bytes": 236272,
+          "sha256": "bc4ed00c60aad9c84548bf1707ccd682aa2aa13a8688aaf439c1c97e4189689c",
+          "alphaRange": [
+            255,
+            255
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "item_bento_v1",
+      "path": "assets/items/bento-v1.png",
+      "kind": "item-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1251958,
+      "sha256": "946e3193c73ff13e364d08664a68c3d036b916d061e9a0449fafc233751ee26a",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/bento-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-1e90985c-11e1-49ed-bc3c-d8f199b8108d.png",
+        "promptSha256": "643e89ecd67b7a666c25650e468db7297c150693cef41f22fd316ac42432272f"
+      },
+      "usage": "行囊物品",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.623947,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            189,
+            246,
+            1122,
+            1018
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/items/bento-v1.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 11876,
+          "sha256": "b643acb085571572cd14f991bd95d5d1d8d8c2a3ad341365ecf3f7470fd60f3c",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "item_biscuit_v1",
+      "path": "assets/items/biscuit-v1.png",
+      "kind": "item-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1403259,
+      "sha256": "2eebde5b89cea4620e6e1019749c653d0527d66d56c6d809577137b8f3570054",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/biscuit-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-a001c7a2-53f2-4044-b760-90b6954bf7d8.png",
+        "promptSha256": "c2b8d2ff5f1c5227a05e28835be0ce71df0ccb98e9e22c4fe8b0b811fb14d542"
+      },
+      "usage": "行囊物品",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.578327,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            108,
+            207,
+            1160,
+            1057
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/items/biscuit-v1.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 13968,
+          "sha256": "8fce8b26801008f5399d397114200df0886118ff13c73591d65b3d568c1e73ae",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "item_water_bottle_v1",
+      "path": "assets/items/water-bottle-v1.png",
+      "kind": "item-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1298093,
+      "sha256": "52b6a2d2c0a19386a3e9a3cbefef36133eefa9b02fa1ba6690a784be93588aeb",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/water-bottle-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-690d2eff-73f8-4807-9c15-0caca602d948.png",
+        "promptSha256": "2686fa9b57e7c2614fd03bd5df4f6e88d151e6562b1eb1f4419fb42346c3e5a1"
+      },
+      "usage": "行囊物品",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.627616,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            328,
+            104,
+            1053,
+            1176
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/items/water-bottle-v1.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 9912,
+          "sha256": "454a12ddcebda3840d8c7cbe141560704368f876af94ae596344a4580c94428f",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "item_map_v1",
+      "path": "assets/items/map-v1.png",
+      "kind": "item-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1489810,
+      "sha256": "26e141367bed3ba9bd8f70a4ee22699320c7fe5c2b01ffdac75b8f067528f960",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/map-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-43e27a4d-a103-4cd7-89b8-8c56088387d1.png",
+        "promptSha256": "456cb85c99d5aca959f4e4a08dc753e8412c7f11d7eed7ecc6200e619ebf2ae0"
+      },
+      "usage": "行囊物品",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.57908,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            57,
+            203,
+            1199,
+            1030
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/items/map-v1.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 12718,
+          "sha256": "5480592884ad6fd7e6e93f3f6c5c388c22d41b62ba4226b11622af54b654b10f",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "item_towel_v1",
+      "path": "assets/items/towel-v1.png",
+      "kind": "item-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1399345,
+      "sha256": "e692ca606bf55859a9949f1bf5c5a20544d48998d3cf107f699f0d67dc1570cb",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/towel-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-398a91c2-6b84-4e16-9617-dc2077580048.png",
+        "promptSha256": "ee20df87989e48ade9157587d2ed92c086875a43c36fd6aafa445a6e47505b28"
+      },
+      "usage": "行囊物品",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.635176,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            97,
+            296,
+            1173,
+            1072
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/items/towel-v1.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 12042,
+          "sha256": "4942f76a41c6a3c58b01707b81caecdf9979f3e10fe7d1efe2c23a5ed43184c6",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "item_lantern_v1",
+      "path": "assets/items/lantern-v1.png",
+      "kind": "item-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1179410,
+      "sha256": "024aef42e0dd7700125aa9b85a734c286d3f424450f6a26ee2c66c8077055861",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/lantern-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-5fbb90c2-64fe-4cc8-9a71-9225f618f420.png",
+        "promptSha256": "f57755204efe17abb70b056a48ecdfac1cd85749284f40e4b48898b3fbdca92f"
+      },
+      "usage": "行囊物品",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.694951,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            309,
+            84,
+            947,
+            1179
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/items/lantern-v1.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 13710,
+          "sha256": "13375d79231d496f36bdeeebf9773ebb2a9130094883b92653d8c5b6520a357f",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "souvenir_leaf_bookmark_v1",
+      "path": "assets/souvenirs/leaf-bookmark-v1.png",
+      "kind": "souvenir-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1334267,
+      "sha256": "7286463b18386dad6440aca2c167d06b8bb5604fe18be235871d8dde09dfd7a4",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/leaf-bookmark-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-351b1e3d-17e8-41a6-b82a-24f9eca95d98.png",
+        "promptSha256": "882c2ac5c7dce26afac595465f0314adb2d305b32ff1cdc196f5214471b8dd53"
+      },
+      "usage": "归来奖励与纪念品收藏",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.688763,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            180,
+            82,
+            1178,
+            1164
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/souvenirs/leaf-bookmark-v1.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 15514,
+          "sha256": "937311d75dd98deb69525243ded28cfb1034d6e383d374a5a6205e821de81169",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "souvenir_pebbles_v1",
+      "path": "assets/souvenirs/colored-pebbles-v1.png",
+      "kind": "souvenir-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1238465,
+      "sha256": "12060b1ccac3f1136eb65cf543b6d9de35b1533111c9e3795099599c89416cd9",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/colored-pebbles-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-6e8191e9-d3ee-481e-81df-28ecd34ea001.png",
+        "promptSha256": "15984b9cf034d5b88443610dd2320d8a80086c14cc97e123a3f85aa0d0737c1c"
+      },
+      "usage": "归来奖励与纪念品收藏",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.644196,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            145,
+            239,
+            1157,
+            1042
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/souvenirs/colored-pebbles-v1.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 10518,
+          "sha256": "739a0dc6c9ed0098b2a7262ac37d29140e2667f48af9fc69ab1b44f45ae7ca0a",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "souvenir_cottage_badge_v1",
+      "path": "assets/souvenirs/cottage-badge-v1.png",
+      "kind": "souvenir-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1388153,
+      "sha256": "444b00d6367a036b29425987b6d21aaa548049573db57fb8533be711b5f07168",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/cottage-badge-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-729c8398-0924-4555-97e9-52663a4b4479.png",
+        "promptSha256": "af613f74bb9b9c323a6330aec25aa1a16465a463f5b7f12fe0c93c9eca4f79bf"
+      },
+      "usage": "归来奖励与纪念品收藏",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.587881,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            118,
+            201,
+            1141,
+            1093
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/souvenirs/cottage-badge-v1.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 10996,
+          "sha256": "28c1f0e291132f1be60e397a2945f534b4000a54f3defb92eaac6c0d7e2335fa",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "postcard_forest_path_v1",
+      "path": "assets/postcards/forest-path-v1.png",
+      "kind": "postcard-art",
+      "requiresAlpha": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3017422,
+      "sha256": "f8f8b488bdafe21b1a3275fc69138a38e8eb546188869a8508e73416223e79c0",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/forest-path-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-df501a69-1182-48ab-b022-2c181dc727c2.png",
+        "promptSha256": "60e798925fc547be9469c7d3b2d80b617a752e182a066bb71caef9041003bf82"
+      },
+      "usage": "归来与明信片收藏",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/postcards/forest-path-v1.webp",
+          "width": 1024,
+          "height": 683,
+          "bytes": 158546,
+          "sha256": "21ebcf4066aa7a848343fa2280bfda4ea86ca1fbdecc248ac39df26a11ce6dbb",
+          "alphaRange": [
+            255,
+            255
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "postcard_garden_v1",
+      "path": "assets/postcards/garden-v1.png",
+      "kind": "postcard-art",
+      "requiresAlpha": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3161688,
+      "sha256": "c19f79c082a35d1f1339f495d25a3d36aa582d5d5e51fdf7691b7bde7177bde2",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/garden-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-1366d979-e282-4b44-90fd-ea09601939ff.png",
+        "promptSha256": "fbde55deb26183d68821203174b80ab6e86ced0f798adb07e3105bd15926069b"
+      },
+      "usage": "归来与明信片收藏",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/postcards/garden-v1.webp",
+          "width": 1024,
+          "height": 683,
+          "bytes": 175568,
+          "sha256": "13dfa01ad9ce889dd80f9fbe49a9d81da9cf711018ba943d362abfa74dc2a5ad",
+          "alphaRange": [
+            255,
+            255
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "postcard_coast_v1",
+      "path": "assets/postcards/coast-v1.png",
+      "kind": "postcard-art",
+      "requiresAlpha": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2721175,
+      "sha256": "ddd6b32caffe674cfe0885c979b4703fd330d00b5d924f48c6aeb39dd9d854ed",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/coast-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-61cdc261-f5f8-44f5-985d-dcd72779347a.png",
+        "promptSha256": "92d35d5ba02c557e8767cb3dd8141f210b6f5c80b9614886ca07d82c15fa413e"
+      },
+      "usage": "归来与明信片收藏",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/postcards/coast-v1.webp",
+          "width": 1024,
+          "height": 683,
+          "bytes": 121296,
+          "sha256": "10f916d53e405ad2fd038486727154617ab6724f82a7fb0132ab3ae7cee1a246",
+          "alphaRange": [
+            255,
+            255
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "nav_home_v1",
+      "path": "assets/ui/icons/home-v1.png",
+      "kind": "navigation-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 890466,
+      "sha256": "8ffc72db85132f7ee289149ae78c4a95309aa8b855ec2bf17b3953fe580832c0",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/home-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-245e0ffe-b4f3-4600-9939-4e82bf104411.png",
+        "promptSha256": "b75e73ecb92bdda9effe1a0253d4c45877068498c43c7bbaa8f18a125adf4a05"
+      },
+      "usage": "导航图标",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.743596,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            230,
+            291,
+            1024,
+            988
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/ui/icons/home-v1.webp",
+          "width": 128,
+          "height": 128,
+          "bytes": 2116,
+          "sha256": "89128a65a95463865a539f388ce6ec3106b858ff93bf31940f54a8cbecbd6b14",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "nav_trip_v1",
+      "path": "assets/ui/icons/trip-v1.png",
+      "kind": "navigation-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 884776,
+      "sha256": "275aa9aff248c89ebde5a6bdc5e441ea0ffbaf4bfaf3ba352a228fb0ec5ec015",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/trip-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-559f1314-b44c-4db3-9cbf-f72b85397417.png",
+        "promptSha256": "e1559e0f306d4e8c90a6db97e84460b3bed3164517dbd6050b081fe1d30554d1"
+      },
+      "usage": "导航图标",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.743052,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            134,
+            265,
+            1165,
+            1021
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/ui/icons/trip-v1.webp",
+          "width": 128,
+          "height": 128,
+          "bytes": 2814,
+          "sha256": "2b2b3da369c0abd927b7f6468aec5d7ad1ee6d40d545346815e95c6c93080daf",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "nav_collection_v1",
+      "path": "assets/ui/icons/collection-v1.png",
+      "kind": "navigation-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1143410,
+      "sha256": "288961353a5f4342c0afc6707c31d1817ac777a24ddc92312cbb7f55161fd819",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/nav-collection-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-ef506e8c-0485-4581-a32b-ac6d4d5523a3.png",
+        "promptSha256": "3e4dd8b34b058adfefaac3ca3453b16b6d155d05a6d47f24166a7ecf638beeb8"
+      },
+      "usage": "导航图标",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.660733,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            289,
+            229,
+            1000,
+            1049
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/ui/icons/collection-v1.webp",
+          "width": 128,
+          "height": 128,
+          "bytes": 2630,
+          "sha256": "9f0e98906008770f088a326ce64459fbcb45b0ec7b87615dbbf985f1c14c0bdf",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "nav_bag_v1",
+      "path": "assets/ui/icons/bag-v1.png",
+      "kind": "navigation-icon",
+      "requiresAlpha": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1148419,
+      "sha256": "cf8b8791e89084339b7a03406fca7e4d6d210e13d69b7331890d470d44cb9067",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "visual-reviewed-pending-integration",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/nav-bag-v1.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-17a16f7b-b16a-4831-a0e6-77950548b600.png",
+        "promptSha256": "c9ced9a87e2f1b77c176635c6fd3dad255d812104c1103ca088d811d56e9eda5"
+      },
+      "usage": "导航图标",
+      "layout": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "fit": "contain",
+        "trim": false
+      },
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "transparentPixelRatio": 0.667566,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBoundsAtAlpha16": [
+            200,
+            321,
+            1210,
+            1003
+          ]
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/ui/icons/bag-v1.webp",
+          "width": 128,
+          "height": 128,
+          "bytes": 3146,
+          "sha256": "8c40c67f69c33644b12e658c05fab2ac1edfe00d783a1da089b20d800af82334",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "screen_home_v2",
+      "path": "assets/ui/screens/home-v2.png",
+      "kind": "ui-screen",
+      "requiresAlpha": false,
+      "width": 853,
+      "height": 1844,
+      "bytes": 2258940,
+      "sha256": "a9c644dc514160e0d4899f9a1e6c0c6c1dea28354eb81597c6a479852cbe71ce",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "final-design-reference",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/home-v2.txt",
+        "referenceAssetIds": [
+          "home_window_v1"
+        ],
+        "originalFile": "exec-ba20d0a9-eb3b-44b8-9cd1-db32cf23c3e3.png",
+        "promptSha256": "64ed69f84e462b13c65df0f01d5dbadec3cb7a3be554c494877fdf911e1a114f"
+      },
+      "usage": "平面页面设计参考",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/ui/screens/home-v2.webp",
+          "width": 780,
+          "height": 1687,
+          "bytes": 144282,
+          "sha256": "41b99c5b0aeae1eaf69684b53e4b898dcfa442c83ebdd74b8053175d399cfbd3",
+          "alphaRange": [
+            255,
+            255
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "screen_return_v2",
+      "path": "assets/ui/screens/return-v2.png",
+      "kind": "ui-screen",
+      "requiresAlpha": false,
+      "width": 853,
+      "height": 1844,
+      "bytes": 2569586,
+      "sha256": "9123460c8e8080d53e545389db81922f9d7851837765857ad3bc8c420a219c5e",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "final-design-reference",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/return-v2.txt",
+        "referenceAssetIds": [
+          "screen_home_v2",
+          "screen_return_v1",
+          "postcard_forest_path_v1",
+          "souvenir_leaf_bookmark_v1"
+        ],
+        "originalFile": "exec-a2b25951-d7ca-4b50-9815-e6567d801c57.png",
+        "promptSha256": "50a2e695ccd7c5424931dc65562f0f4e7ce72148612a36f669c616f5f49279b2"
+      },
+      "usage": "平面页面设计参考",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/ui/screens/return-v2.webp",
+          "width": 780,
+          "height": 1687,
+          "bytes": 201662,
+          "sha256": "ef7b6d2d96959a2ebff8900bffdcfefc2afb6c4055837c5ebccd3d858952beee",
+          "alphaRange": [
+            255,
+            255
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "screen_collection_v2",
+      "path": "assets/ui/screens/collection-v2.png",
+      "kind": "ui-screen",
+      "requiresAlpha": false,
+      "width": 853,
+      "height": 1844,
+      "bytes": 2329520,
+      "sha256": "fbc542089dc021d33fccf660832f04aee9f11fd5ac407936aed816d519a6ea08",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "final-design-reference",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/collection-v2.txt",
+        "referenceAssetIds": [
+          "screen_home_v2",
+          "screen_collection_v1",
+          "postcard_forest_path_v1",
+          "postcard_garden_v1"
+        ],
+        "originalFile": "exec-9c05e26c-04b2-4fb7-bf2e-0a458c72e8f2.png",
+        "promptSha256": "ee706e79f30cb8c118b5ebe0f59be015641b44b08997024e53d8b43c24792090"
+      },
+      "usage": "平面页面设计参考",
+      "fileValidation": {
+        "pngDecode": "pass",
+        "sha256": "pass",
+        "alpha": {
+          "range": [
+            255,
+            255
+          ],
+          "transparentPixelRatio": 0.0
+        }
+      },
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/exports/ui/screens/collection-v2.webp",
+          "width": 780,
+          "height": 1687,
+          "bytes": 146224,
+          "sha256": "3a11fa32a257485a2cb78a77acd98bacdd23fccd0023f7f8d53a04d3c95a5937",
+          "alphaRange": [
+            255,
+            255
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 86,
+            "alphaQuality": 100,
+            "resized": true,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "calico_walk_right_v1",
+      "path": "assets/characters/calico/calico-walk-right-v1.png",
+      "kind": "character-animation-atlas",
+      "requiresAlpha": true,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2220682,
+      "sha256": "e267061c4a6a293cf38f7e23c06f3a062a8e23c94d0e2f4caccff152d77acbfb",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "walking-atlas-reviewed-pending-device-qa",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/calico-walk-right-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1",
+          "screen_home_v2"
+        ],
+        "originalFile": "exec-1cb8db20-2bc2-4893-9dc9-880a3a15e7b5.png",
+        "promptSha256": "f2a4dc6c39055ddb2265e5409c2b8f8cb2dce069aa332bbc533a9b7b077d535a"
+      },
+      "usage": "Six-frame walking cycle; per-frame registration in assets/pets/calico-v1/pet.json",
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/pets/calico-v1/walk-right.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 330604,
+          "sha256": "00460afb9cce34bed60b7a9e958746426bd6c4519d2dc10e8083b512238707c0",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 88,
+            "alphaQuality": 100,
+            "resized": false,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "calico_walk_left_v1",
+      "path": "assets/characters/calico/calico-walk-left-v1.png",
+      "kind": "character-animation-atlas",
+      "requiresAlpha": true,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2231689,
+      "sha256": "d30e825ae5b06e259a674b1a03fa44755971f62067c9e1bb74f6025697342ef3",
+      "author": "AI-assisted; project brief and Codex art direction",
+      "source": "Built-in image_gen",
+      "license": "pending-review",
+      "aiAssisted": true,
+      "reviewStatus": "walking-atlas-reviewed-pending-device-qa",
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-17",
+        "tool": "image_gen",
+        "model": "not exposed by tool",
+        "promptFile": "assets/prompts/calico-walk-left-v1.txt",
+        "referenceAssetIds": [
+          "calico_character_reference_v1",
+          "screen_home_v2",
+          "calico_walk_right_v1"
+        ],
+        "originalFile": "exec-70b19493-cfe1-4815-8cb4-2ce6e4d9fa17.png",
+        "promptSha256": "3475f7d395529ef55f19faf7c5ef6a7c602e0b5a352ad567789f3f8fc5dc4cec"
+      },
+      "usage": "Six-frame walking cycle; per-frame registration in assets/pets/calico-v1/pet.json",
+      "derivatives": [
+        {
+          "format": "webp",
+          "path": "assets/pets/calico-v1/walk-left.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 275232,
+          "sha256": "dc8323e38963bf7c1ce000a39781dcaa77aff2eda44240bd691376d4552f69bc",
+          "alphaRange": [
+            0,
+            254
+          ],
+          "export": {
+            "tool": "cwebp 1.6.0",
+            "quality": 88,
+            "alphaQuality": 100,
+            "resized": false,
+            "cropped": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "loft-room-v1",
+      "path": "assets/godot/loft/room-v1.png",
+      "sha256": "df6ba21ff4996c2d8e1404fc6744fef30183e3cf8b8acad9ff4e0bf1433955ec",
+      "author": "OpenAI image generation for Wanpet",
+      "source": "Built-in image_gen; generated 2026-10-30",
+      "license": "Original AI-generated asset; third-party rights not independently cleared",
+      "prompt": "Create a production-ready portrait 2D game BACKGROUND for the existing Wanpet cat game, a warmly illustrated small two-storey woodland house like the uploaded reference's domestic layout. Reference role: the uploaded screenshot is ONLY spatial-layout and atmosphere reference; discard all phone/video/emulator interface, all text, game UI, frogs and characters. Redraw as a coherent original hand-painted illustrated wooden cottage. Full bleed portrait aspect 390:844, preferably 1024x2216 or nearest tall portrait. Soft warm grey-green walls, slightly wobbly dark olive-brown pencil outlines, warm honey wood, muted moss green and dusty blue, subtle watercolor wash, readable flat 2D orthographic dollhouse view with mildly top-down floor.\n\nComposition for actual playable level: the upper 50% has a loft with a blue folded duvet bed on the left, a round window at back center, a little book stack and a botanical bottle near the right; curved low railing across the loft front. The right side has a rustic wooden staircase descending from loft to lower floor, with a sage-green wooden drawer cabinet beneath. Lower-left wall has an oval small window above a compact clay stove, a small natural wood front door at approximately x24%, y53%. The lower floor begins around y53% and occupies the entire bottom half. In the lower central floor at x50%, y75% put a large empty soft moss-green oval rug, leaving an unobstructed clear area for a table/chair/animated cat to be composited later. Rug bounds about x18..86%, y66..86%. DO NOT draw any table or chairs on the rug. Small leaf-shaped coat stand at far left edge, potted fern at far right edge, sparse lived-in objects tucked along walls. Bottom 12% is open warm pale clay/wood floor, low detail for mobile navigation overlay. The cottage fills the image to the edges, no external frame. Keep uppermost 8% readable calm wall for the mobile header. All lower central floor must remain open; no pets, no people, no frog, no tables, no chairs, no food bowls, no text, no logos, no icons, no mobile device frame. This is environment art, NOT a screenshot or UI mockup.\n",
+      "reference": "user supplied two-storey cottage composition; project calico identity",
+      "review": "Local prototype; runtime visual acceptance pending",
+      "transparentBackground": false,
+      "kind": "game-scene",
+      "bytes": 2194931,
+      "aiAssisted": true,
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-30",
+        "tool": "image_gen",
+        "promptFile": "assets/prompts/loft-room-v1.txt"
+      }
+    },
+    {
+      "id": "loft-cat-table-v1",
+      "path": "assets/godot/loft/cat-table-v1.png",
+      "sha256": "7787f2b029ac5db87c35dc375aeb1f7a6aee669bbf6ba8d98e0379ac3beb1475",
+      "author": "OpenAI image generation for Wanpet",
+      "source": "Built-in image_gen; generated 2026-10-30",
+      "license": "Original AI-generated asset; third-party rights not independently cleared",
+      "prompt": "Create a production transparent PNG sprite atlas for the Wanpet calico cat. Input image is the identity reference ONLY: preserve round cream face, orange patch on viewer left head, charcoal patch on viewer right head, cream body, orange/grey patches and striped fluffy tail. Use a simplified readable hand-painted storybook style with fine olive-brown outlines matching a cozy woodland cottage game. Real transparent background.\n\nEXACT 2 columns x 2 rows sprite sheet on a square canvas, ideally 1536x1536, cells 768x768. Each cell contains ONLY the same cat at identical scale, view, butt anchor and paw contact. No furniture, no table, no chair, no ground, no labels, no guides, no cell borders. Empty alpha gutters at least 50 pixels. Never crop ears or tail. Fixed elevated 3/4 front view, cat faces toward lower LEFT, as if seated on an invisible chair at the RIGHT side of an invisible round dining table. The cat must look naturally seated with hindquarters supported, two forepaws reaching forward-left to rest on an INVISIBLE tabletop. Cat remains upright enough to see face, chest and tail. Same chair-seat butt anchor near (450,600) inside EACH cell. Forepaws contact the imaginary table around (245,410) in EVERY cell. Tail curls around right side, hindpaws hang slightly below seat. Full visible cat height approximately 480px. Not a standing quadruped pose.\n\nTop left: SEATED ALERT, upright at the invisible table, both front paws resting close together on invisible tabletop, eyes open looking toward a book at lower left.\nTop right: SEATED BLINK, exact same pose as top left, eyes gently closed, tiny ear change, identical paws and butt.\nBottom left: LEANING, forearms still at exact same tabletop contact, upper body leaned forward, chin and cheek lowering toward the forepaws, eyes half-open looking at imaginary book.\nBottom right: RESTING ON TABLE, head completely resting on the two forepaws on the imaginary tabletop, eyes softly closed, seated hindquarters at SAME anchor as every other frame, tail visible. Clear physically different head height from upright pose, no detached paws, no furniture whatsoever.\n\nCritical: a game animator will play these at 90px tall. Keep face markings consistent, all four silhouettes at one shared scale, no morphing between different cats. Transparent alpha PNG only.\n",
+      "reference": "user supplied two-storey cottage composition; project calico identity",
+      "review": "Local prototype; runtime visual acceptance pending",
+      "transparentBackground": true,
+      "kind": "game-atlas",
+      "bytes": 1685699,
+      "aiAssisted": true,
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-30",
+        "tool": "image_gen",
+        "promptFile": "assets/prompts/loft-cat-table-v1.txt"
+      }
+    },
+    {
+      "id": "loft-furniture-v1",
+      "path": "assets/godot/loft/furniture-v1.png",
+      "sha256": "086a3871aeda52a6bd51df4af1420910aa3c01759477afab2b77b75422a7adf8",
+      "author": "OpenAI image generation for Wanpet",
+      "source": "Built-in image_gen; generated 2026-10-30",
+      "license": "Original AI-generated asset; third-party rights not independently cleared",
+      "prompt": "Generate a production game FURNITURE ATLAS as genuine transparent PNG, matching the attached cottage environment's warm hand-painted storybook ink-line art. Reference image provides palette, outline and camera only; do NOT include the room.\n\nWide 1536x768 canvas divided into TWO equal 768x768 cells. No grid, no labels, no text, no floor, no background, no people, no cat. All outside the furniture is true transparent alpha.\n\nLEFT CELL: a small round low wooden dining table, seen from the same slightly elevated front 3/4 view as the reference. Warm honey-colored oval tabletop, organic wood grain rings, dark olive-brown soft outlines, four short slightly splayed wooden legs. Complete table entirely inside cell with 45px gutters. Top surface ellipse approximately x70..698 and y245..475, tabletop rim 28px deep, front feet reach y680. On the LEFT side of table a small off-white ceramic mug with a leaf motif; at center an open small illustrated botanical travel notebook, no legible letters. Keep the far RIGHT rim and right third of tabletop empty for a cat's paws to rest. Table must be solid opaque wood, no alpha inside it.\n\nRIGHT CELL: a matching small wooden armchair, completely EMPTY, with a muted terracotta seat cushion. View 3/4 facing LOWER LEFT; we will place this chair behind and to the right of the table. Rounded wooden back posts from y140, backrest at y230, seat cushion centered (420,480), armrests at y395, legs to y680. The front armrest is near left, the back/right post is near right. A little charming uneven handcrafted joinery, solid construction. Leave at least 70px space around all sides, complete legs visible. Similar wood scale and identical outline weight as the table.\n\nThe two objects must not touch or overlap. Do not arrange them as a scene; atlas cells are independent reusable transparent cutouts. Palette warm honey wood, burnt orange cushion, restrained pencil shading; match the supplied cottage rendering.\n",
+      "reference": "user supplied two-storey cottage composition; project calico identity",
+      "review": "Local prototype; runtime visual acceptance pending",
+      "transparentBackground": true,
+      "kind": "game-atlas",
+      "bytes": 1067929,
+      "aiAssisted": true,
+      "approvedForProduction": false,
+      "generation": {
+        "date": "2026-10-30",
+        "tool": "image_gen",
+        "promptFile": "assets/prompts/loft-furniture-v1.txt"
+      }
+    }
+  ],
+  "note": "Historical art-production provenance, including locally archived source paths. Only assets/runtime-files.json lists art files included in the current repository; Godot runtime provenance is in assets/godot/manifest.json. Historical source paths do not imply those files are distributed.",
+  "ideationSets": [
+    {
+      "id": "home-concepts-2026-10-17",
+      "assetIdsInDisplayedOrder": [
+        "home_window_v1",
+        "home_garden_v1",
+        "home_journal_v1"
+      ],
+      "selectedAssetId": "home_window_v1",
+      "status": "selected"
+    }
+  ],
+  "deliverables": {
+    "selectedDirectionAssetId": "home_window_v1",
+    "finalScreenAssetIds": [
+      "screen_home_v2",
+      "screen_bag_v1",
+      "screen_return_v2",
+      "screen_collection_v2"
+    ],
+    "standaloneAssetCount": 24,
+    "exportCount": 28,
+    "designBasePt": [
+      390,
+      844
+    ],
+    "status": "art-and-design-reference-complete; runtime-and-rights-review-pending"
+  },
+  "petRuntimePacks": [
+    {
+      "id": "calico-window-v1",
+      "path": "assets/pets/calico-v1/pet.json",
+      "purpose": "Local interactive preview; no account/species catalog mapping",
+      "textureAssetIds": [
+        "calico_idle_v1",
+        "calico_walk_left_v1",
+        "calico_walk_right_v1"
+      ]
+    }
+  ]
+}

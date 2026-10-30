@@ -1,0 +1,63 @@
+{
+  "status": "Draft awaiting user visual review; no production refactor",
+  "date": "2026-10-22",
+  "newArtwork": [
+    {
+      "path": "room.png",
+      "method": "OpenAI built-in image_gen",
+      "promptFile": "generated-prompts.json",
+      "promptEmbedded": true
+    },
+    {
+      "path": "courtyard.png",
+      "method": "OpenAI built-in image_gen",
+      "promptFile": "generated-prompts.json",
+      "promptEmbedded": true
+    },
+    {
+      "path": "bundle.png",
+      "method": "OpenAI built-in image_gen",
+      "promptFile": "generated-prompts.json",
+      "promptEmbedded": true
+    }
+  ],
+  "conceptBoard": "../review/visual-concept.png",
+  "reusedArtwork": [
+    {
+      "path": "bento.png",
+      "origin": "assets/godot/ui/bento.png",
+      "originalProvenance": "assets/manifest.json",
+      "promptEmbedded": true
+    },
+    {
+      "path": "water.png",
+      "origin": "assets/godot/ui/water.png",
+      "originalProvenance": "assets/manifest.json",
+      "promptEmbedded": true
+    },
+    {
+      "path": "forest.png",
+      "origin": "assets/godot/ui/forest.png",
+      "originalProvenance": "assets/manifest.json",
+      "promptEmbedded": true
+    },
+    {
+      "path": "stream.png",
+      "origin": "assets/godot/ui/stream.png",
+      "originalProvenance": "assets/manifest.json",
+      "promptEmbedded": true
+    },
+    {
+      "path": "garden.png",
+      "origin": "assets/godot/ui/garden.png",
+      "originalProvenance": "assets/manifest.json",
+      "promptEmbedded": true
+    }
+  ],
+  "cat": {
+    "manifest": "cat/manifest.json",
+    "origin": "Current Godot runtime atlases",
+    "integrity": "Copies kept byte-identical; origin and hash are in manifest instead of injecting PNG metadata."
+  },
+  "superseded": "First photographic room study and first hand-drawn room plate are not used in this full redesign. Generator originals remain in Codex generated_images."
+}

@@ -1,0 +1,48 @@
+{
+  "name": "wanpet-app",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "postinstall": "node scripts/patch-rn-godot.mjs",
+    "dev:client": "npm start -w @wanpet/mobile",
+    "dev:godot": "node scripts/godot.mjs run",
+    "mobile:ios": "npm run ios -w @wanpet/mobile",
+    "mobile:android": "npm run android -w @wanpet/mobile",
+    "dev:legacy": "npm run dev -w @wanpet/client",
+    "godot:editor": "node scripts/godot.mjs editor",
+    "godot:check": "node scripts/godot.mjs check",
+    "godot:build": "node scripts/godot.mjs export",
+    "dev:server": "npm run build -w @wanpet/contracts && npm run dev -w @wanpet/server",
+    "dev:server:godot": "npm run build:backend && node --env-file=.env --env-file=.env.godot apps/server/dist/main.js",
+    "build": "npm run build:backend && npm run mobile:prepare-game && npm run mobile:bundle",
+    "mobile:bundle": "node scripts/bundle-rn.mjs",
+    "build:backend": "npm run build -w @wanpet/contracts && npm run build -w @wanpet/server",
+    "build:legacy": "npm run build -w @wanpet/client",
+    "typecheck": "npm run build -w @wanpet/contracts && npm run typecheck -w @wanpet/server && npm run typecheck -w @wanpet/game-core && npm run mobile:typecheck",
+    "check:scaffold": "node scripts/check-scaffold.mjs",
+    "check:assets": "node scripts/check-assets.mjs",
+    "check:prisma-config": "node scripts/check-prisma-config.mjs",
+    "test": "npm run test -w @wanpet/server && npm run mobile:test && npm run godot:check",
+    "test:legacy": "npm run test -w @wanpet/client",
+    "test:integration": "npm run test:integration -w @wanpet/server",
+    "db:generate": "node scripts/prisma.mjs generate",
+    "db:validate": "node scripts/prisma.mjs validate",
+    "db:deploy": "node scripts/prisma.mjs migrate deploy",
+    "mobile:prepare-game": "node scripts/build-rn-game.mjs",
+    "mobile:typecheck": "npm run typecheck -w @wanpet/mobile",
+    "mobile:test": "npm run test:session -w @wanpet/mobile && npm test -w @wanpet/mobile -- --runInBand",
+    "loft:preview": "node scripts/preview-loft.mjs"
+  },
+  "overrides": {
+    "@prisma/config": {
+      "deepmerge-ts": "8.0.0"
+    }
+  }
+}

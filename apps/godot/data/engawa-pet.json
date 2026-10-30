@@ -1,0 +1,1709 @@
+{
+  "version": 1,
+  "frameCount": 121,
+  "fps": 24,
+  "position": [
+    291,
+    1305
+  ],
+  "scale": [
+    0.5919003115264797,
+    0.5919003115264797
+  ],
+  "frames": [
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        0,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        1055,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        2110,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        0,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        1055,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        2110,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        0,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        1055,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        2110,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        0,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        1055,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        2110,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        0,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        1055,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        2110,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        0,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        1055,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-00.png",
+      "rect": [
+        2110,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        0,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        1055,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        2110,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        0,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        1055,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        2110,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        0,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        1055,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        2110,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        0,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        1055,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        2110,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        0,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        1055,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        2110,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        0,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        1055,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-01.png",
+      "rect": [
+        2110,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        0,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        1055,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        2110,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        0,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        1055,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        2110,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        0,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        1055,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        2110,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        0,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        1055,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        2110,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        0,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        1055,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        2110,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        0,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        1055,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-02.png",
+      "rect": [
+        2110,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        0,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        1055,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        2110,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        0,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        1055,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        2110,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        0,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        1055,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        2110,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        0,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        1055,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        2110,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        0,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        1055,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        2110,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        0,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        1055,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-03.png",
+      "rect": [
+        2110,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        0,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        1055,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        2110,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        0,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        1055,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        2110,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        0,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        1055,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        2110,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        0,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        1055,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        2110,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        0,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        1055,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        2110,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        0,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        1055,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-04.png",
+      "rect": [
+        2110,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        0,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        1055,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        2110,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        0,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        1055,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        2110,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        0,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        1055,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        2110,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        0,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        1055,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        2110,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        0,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        1055,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        2110,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        0,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        1055,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-05.png",
+      "rect": [
+        2110,
+        2615,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        0,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        1055,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        2110,
+        0,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        0,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        1055,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        2110,
+        523,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        0,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        1055,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        2110,
+        1046,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        0,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        1055,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        2110,
+        1569,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    },
+    {
+      "texture": "res://assets/engawa/video-full/cat-video-06.png",
+      "rect": [
+        0,
+        2092,
+        1055,
+        523
+      ],
+      "anchor": [
+        542.2947368421053,
+        507
+      ],
+      "duration": 1
+    }
+  ]
+}

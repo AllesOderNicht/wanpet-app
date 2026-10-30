@@ -1,0 +1,29 @@
+; Godot 4.7.2 — generated assets are synchronized before import/export.
+config_version=5
+
+[application]
+config/name="丸宠 · 窗边小屋"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/description="原创水彩宠物家园"
+
+[display]
+window/size/viewport_width=390
+window/size/viewport_height=844
+window/size/window_width_override=468
+window/size/window_height_override=1013
+window/stretch/mode="canvas_items"
+
+[accessibility]
+general/accessibility_support=1
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/vram_compression/import_etc2_astc=true
+textures/vram_compression/import_s3tc_bptc=true
+environment/defaults/default_clear_color=Color(0.984, 0.976, 0.953, 1)
+
+[application/run]
+max_fps=60

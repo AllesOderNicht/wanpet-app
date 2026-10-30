@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "id": "courtyard",
+  "name": "庭院",
+  "size": [
+    390,
+    560
+  ],
+  "background": "res://assets/backgrounds/courtyard-engawa-v2.png",
+  "spawn": [
+    175,
+    450
+  ],
+  "walkable": [
+    [
+      45,
+      245
+    ],
+    [
+      347,
+      245
+    ],
+    [
+      347,
+      530
+    ],
+    [
+      45,
+      530
+    ]
+  ],
+  "objects": [
+    {
+      "id": "bench",
+      "texture": "res://assets/props/home-atlas.png",
+      "region": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "position": [
+        270,
+        365
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "scale": 0.27,
+      "layer": "world",
+      "collision": [
+        [
+          -57,
+          -22
+        ],
+        [
+          57,
+          -22
+        ],
+        [
+          57,
+          3
+        ],
+        [
+          -57,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "shrub",
+      "texture": "res://assets/props/home-atlas.png",
+      "region": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "position": [
+        103,
+        400
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "scale": 0.25,
+      "layer": "world",
+      "collision": [
+        [
+          -28,
+          -20
+        ],
+        [
+          28,
+          -20
+        ],
+        [
+          28,
+          3
+        ],
+        [
+          -28,
+          3
+        ]
+      ],
+      "ambient": true
+    },
+    {
+      "id": "garden-bed",
+      "texture": "res://assets/props/home-atlas.png",
+      "region": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "position": [
+        80,
+        315
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "scale": 0.22,
+      "layer": "ground"
+    },
+    {
+      "id": "garden-bowl",
+      "texture": "res://assets/props/home-atlas.png",
+      "region": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "position": [
+        295,
+        470
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "scale": 0.13,
+      "layer": "world"
+    },
+    {
+      "id": "front-shrub",
+      "texture": "res://assets/props/home-atlas.png",
+      "region": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "position": [
+        370,
+        580
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "scale": 0.3,
+      "layer": "foreground",
+      "ambient": true
+    }
+  ],
+  "interactions": [
+    {
+      "id": "sleep",
+      "action": "sleep",
+      "position": [
+        80,
+        307
+      ],
+      "facing": "front",
+      "hotspot": [
+        25,
+        263,
+        110,
+        65
+      ]
+    },
+    {
+      "id": "eat",
+      "action": "eat",
+      "position": [
+        272,
+        468
+      ],
+      "facing": "right",
+      "hotspot": [
+        270,
+        432,
+        50,
+        52
+      ]
+    },
+    {
+      "id": "interior-door",
+      "action": "door",
+      "position": [
+        80,
+        255
+      ],
+      "room": "interior",
+      "spawn": [
+        330,
+        253
+      ],
+      "hotspot": [
+        35,
+        130,
+        90,
+        135
+      ]
+    }
+  ]
+}

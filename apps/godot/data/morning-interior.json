@@ -1,0 +1,563 @@
+{
+  "version": 1,
+  "id": "interior",
+  "name": "阁楼小屋",
+  "size": [
+    390,
+    844
+  ],
+  "background": "res://assets/loft/room-v1.png",
+  "background_fit": "cover",
+  "background_position": [
+    0.5,
+    0.5
+  ],
+  "spawn": [
+    210,
+    685
+  ],
+  "walkable": [
+    [
+      122,
+      460
+    ],
+    [
+      287,
+      460
+    ],
+    [
+      302,
+      510
+    ],
+    [
+      337,
+      545
+    ],
+    [
+      345,
+      730
+    ],
+    [
+      55,
+      730
+    ],
+    [
+      48,
+      570
+    ],
+    [
+      78,
+      515
+    ],
+    [
+      122,
+      495
+    ]
+  ],
+  "objects": [
+    {
+      "id": "cat-bed",
+      "texture": "res://assets/props/home-atlas.png",
+      "region": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "position": [
+        91,
+        704
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "scale": 0.26,
+      "layer": "ground",
+      "front_part": {
+        "texture": "res://assets/props/home-atlas.png",
+        "region": [
+          512,
+          376,
+          512,
+          72
+        ],
+        "pivot": [
+          256,
+          72
+        ],
+        "depth_offset": 12
+      }
+    },
+    {
+      "id": "food-bowl",
+      "texture": "res://assets/props/home-atlas.png",
+      "region": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "position": [
+        267,
+        701
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "scale": 0.105,
+      "layer": "ground",
+      "front_part": {
+        "texture": "res://assets/props/home-atlas.png",
+        "region": [
+          1024,
+          408,
+          512,
+          40
+        ],
+        "pivot": [
+          256,
+          40
+        ],
+        "depth_offset": 8
+      }
+    },
+    {
+      "id": "water-bowl",
+      "texture": "res://assets/living/water-v1.png",
+      "position": [
+        319,
+        693
+      ],
+      "pivot": [
+        768,
+        838
+      ],
+      "scale": 0.037,
+      "layer": "ground"
+    },
+    {
+      "id": "cat-toilet",
+      "texture": "res://assets/living/toilet-v1.png",
+      "position": [
+        320,
+        532
+      ],
+      "pivot": [
+        790,
+        919
+      ],
+      "scale": 0.065,
+      "layer": "world",
+      "collision": [
+        [
+          -29,
+          -18
+        ],
+        [
+          29,
+          -18
+        ],
+        [
+          29,
+          0
+        ],
+        [
+          -29,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "reading-chair",
+      "texture": "res://assets/loft/furniture-v1.png",
+      "region": [
+        1000,
+        0,
+        774,
+        887
+      ],
+      "position": [
+        265,
+        600
+      ],
+      "pivot": [
+        380,
+        675
+      ],
+      "scale": 0.13,
+      "layer": "world",
+      "collision": [
+        [
+          -28,
+          -13
+        ],
+        [
+          22,
+          -13
+        ],
+        [
+          22,
+          12
+        ],
+        [
+          -28,
+          12
+        ]
+      ],
+      "front_part": {
+        "texture": "res://assets/loft/furniture-v1.png",
+        "region": [
+          1000,
+          570,
+          774,
+          317
+        ],
+        "pivot": [
+          380,
+          105
+        ],
+        "depth_offset": 27
+      }
+    },
+    {
+      "id": "reading-table",
+      "texture": "res://assets/loft/furniture-v1.png",
+      "region": [
+        0,
+        0,
+        940,
+        887
+      ],
+      "position": [
+        184,
+        630
+      ],
+      "pivot": [
+        495,
+        790
+      ],
+      "scale": 0.18,
+      "layer": "world",
+      "collision": [
+        [
+          -64,
+          -46
+        ],
+        [
+          50,
+          -46
+        ],
+        [
+          58,
+          -12
+        ],
+        [
+          38,
+          3
+        ],
+        [
+          -43,
+          3
+        ],
+        [
+          -67,
+          -12
+        ]
+      ]
+    }
+  ],
+  "interactions": [],
+  "art_source": "assets/godot/loft/room-v1.png",
+  "navigation_notes": "Lower floor only; loft and stairs are painted scenery. Table and chair footprints block walking. Reading arrival is beside the chair at (300,615); an authored visual offset seats the cat, and foreground paw cutouts overlap the tabletop. The server still authorizes every read activity. Enter/leave motion is local presentation only.",
+  "life_spots": {
+    "sunny": [
+      92,
+      673
+    ],
+    "shelter": [
+      95,
+      550
+    ],
+    "food": [
+      279.6,
+      686.45
+    ],
+    "water": [
+      331.6,
+      678.45
+    ],
+    "toilet": [
+      304,
+      554
+    ],
+    "reading": [
+      300,
+      615
+    ],
+    "nearby": [
+      210,
+      704
+    ]
+  },
+  "cushion_anchor_offset": [
+    0,
+    31
+  ],
+  "life_slots": {
+    "sunny": {
+      "position": [
+        92,
+        673
+      ],
+      "facing": "front",
+      "pose": "rest"
+    },
+    "shelter": {
+      "position": [
+        95,
+        550
+      ],
+      "facing": "front",
+      "pose": "rest"
+    },
+    "food": {
+      "object_id": "food-bowl",
+      "offset": [
+        12.6,
+        -14.55
+      ],
+      "contact": [
+        0,
+        -18
+      ],
+      "facing": "front",
+      "pose": "eat"
+    },
+    "water": {
+      "object_id": "water-bowl",
+      "offset": [
+        12.6,
+        -14.55
+      ],
+      "contact": [
+        0,
+        -18
+      ],
+      "facing": "front",
+      "pose": "eat"
+    },
+    "toilet": {
+      "object_id": "cat-toilet",
+      "offset": [
+        -16,
+        22
+      ],
+      "contact": [
+        -16,
+        -12
+      ],
+      "facing": "back",
+      "pose": "idle"
+    },
+    "reading": {
+      "object_id": "reading-table",
+      "offset": [
+        116,
+        -15
+      ],
+      "contact": [
+        51,
+        -76
+      ],
+      "facing": "left",
+      "pose": "idle"
+    },
+    "nearby": {
+      "position": [
+        210,
+        704
+      ],
+      "facing": "front",
+      "pose": "idle"
+    }
+  },
+  "reading_hotspot": [
+    107,
+    535,
+    190,
+    100
+  ],
+  "reading_pose": {
+    "fps": 1,
+    "loop": true,
+    "scale": 1.69683257918552,
+    "entry_offset": [
+      32,
+      42
+    ],
+    "frames": [
+      {
+        "texture": "res://assets/loft/cat-table-v1.png",
+        "rect": [
+          70,
+          25,
+          590,
+          630
+        ],
+        "anchor": [
+          503,
+          795
+        ],
+        "foreground": [
+          0,
+          0,
+          420,
+          435
+        ],
+        "duration": 3.8
+      },
+      {
+        "texture": "res://assets/loft/cat-table-v1.png",
+        "rect": [
+          660,
+          25,
+          594,
+          630
+        ],
+        "anchor": [
+          503,
+          795
+        ],
+        "foreground": [
+          0,
+          0,
+          420,
+          435
+        ],
+        "duration": 0.15
+      },
+      {
+        "texture": "res://assets/loft/cat-table-v1.png",
+        "rect": [
+          70,
+          25,
+          590,
+          630
+        ],
+        "anchor": [
+          503,
+          795
+        ],
+        "foreground": [
+          0,
+          0,
+          420,
+          435
+        ],
+        "duration": 2.4
+      },
+      {
+        "texture": "res://assets/loft/cat-table-v1.png",
+        "rect": [
+          60,
+          695,
+          600,
+          530
+        ],
+        "anchor": [
+          513,
+          655
+        ],
+        "foreground": [
+          0,
+          0,
+          420,
+          325
+        ],
+        "duration": 0.7
+      },
+      {
+        "texture": "res://assets/loft/cat-table-v1.png",
+        "rect": [
+          660,
+          695,
+          594,
+          530
+        ],
+        "anchor": [
+          513,
+          655
+        ],
+        "foreground": [
+          0,
+          0,
+          420,
+          325
+        ],
+        "duration": 4.5
+      },
+      {
+        "texture": "res://assets/loft/cat-table-v1.png",
+        "rect": [
+          60,
+          695,
+          600,
+          530
+        ],
+        "anchor": [
+          513,
+          655
+        ],
+        "foreground": [
+          0,
+          0,
+          420,
+          325
+        ],
+        "duration": 0.7
+      },
+      {
+        "texture": "res://assets/loft/cat-table-v1.png",
+        "rect": [
+          70,
+          25,
+          590,
+          630
+        ],
+        "anchor": [
+          503,
+          795
+        ],
+        "foreground": [
+          0,
+          0,
+          420,
+          435
+        ],
+        "duration": 2.7
+      },
+      {
+        "texture": "res://assets/loft/cat-table-v1.png",
+        "rect": [
+          660,
+          25,
+          594,
+          630
+        ],
+        "anchor": [
+          503,
+          795
+        ],
+        "foreground": [
+          0,
+          0,
+          420,
+          435
+        ],
+        "duration": 0.15
+      }
+    ]
+  }
+}

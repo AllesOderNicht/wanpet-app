@@ -1,0 +1,394 @@
+{
+  "front": [
+    {
+      "alphaBounds": [
+        141,
+        32,
+        434,
+        489
+      ],
+      "pixelHash": "9099b4ff912a96eb0b4bd5d4d5c5ca1a0c1ae4443efaf3e206120ad3b7ed3a23"
+    },
+    {
+      "alphaBounds": [
+        117,
+        31,
+        403,
+        493
+      ],
+      "pixelHash": "7024684b2fcac2670c5293884c315a14e0d5c9370a913f7753840f0b9aa5f434"
+    },
+    {
+      "alphaBounds": [
+        108,
+        26,
+        393,
+        493
+      ],
+      "pixelHash": "45ec8fd75d89c2151bc91a770c0d1504d5ad162e2377f5401832a949942b8575"
+    },
+    {
+      "alphaBounds": [
+        141,
+        11,
+        430,
+        462
+      ],
+      "pixelHash": "362e144c25eae80b5b8ae654e12ecc0b403c3103db55adf41ebe4984bcbdf756"
+    },
+    {
+      "alphaBounds": [
+        126,
+        7,
+        410,
+        462
+      ],
+      "pixelHash": "ef0764f8b822dd80e80be6cf00de4af5452ecc97250f5e12767c59f60a905105"
+    },
+    {
+      "alphaBounds": [
+        120,
+        11,
+        402,
+        468
+      ],
+      "pixelHash": "7853f05b2d8de7b3a2aff874e59e91c7cd6dd7285b8660e244a86fc67db1b9c5"
+    }
+  ],
+  "back": [
+    {
+      "alphaBounds": [
+        164,
+        43,
+        481,
+        460
+      ],
+      "pixelHash": "c402378053eda5bd5fb36112152fd1ddda27c3da0bacab640627f6cb3db7032e"
+    },
+    {
+      "alphaBounds": [
+        139,
+        44,
+        473,
+        462
+      ],
+      "pixelHash": "66fb916d8040e89c6a06617f9747ff03734087edbce2fc8341890bc08f8ceb36"
+    },
+    {
+      "alphaBounds": [
+        127,
+        50,
+        446,
+        475
+      ],
+      "pixelHash": "79d77ff7bb5acc4f8802d8e93daefddf0b819c023d5c8b1e0c83601d503a6338"
+    },
+    {
+      "alphaBounds": [
+        160,
+        40,
+        478,
+        455
+      ],
+      "pixelHash": "cf741935939f51e7ddcd036268fc0cbe46d45ccabf2a0e90a024660cc8a1e38c"
+    },
+    {
+      "alphaBounds": [
+        148,
+        39,
+        458,
+        455
+      ],
+      "pixelHash": "778bad9dc309d351388db3a6678b41944b0c4fa36cb6ce5599af9d2cb4e750b1"
+    },
+    {
+      "alphaBounds": [
+        108,
+        28,
+        447,
+        455
+      ],
+      "pixelHash": "8903df89ba9145086b51bf25d156432c48cb17616df8ff89b357f10161d6d23d"
+    }
+  ],
+  "left": [
+    {
+      "alphaBounds": [
+        45,
+        103,
+        504,
+        470
+      ],
+      "pixelHash": "40c9ab40cb00cb836af618a5df3cabbc6a1973c87fe90abb1b7372e3bd62f680"
+    },
+    {
+      "alphaBounds": [
+        35,
+        103,
+        503,
+        470
+      ],
+      "pixelHash": "39af0392e272cecbb36bed888e0cf99a12ee176eadcca3dd2aa21180a8a208be"
+    },
+    {
+      "alphaBounds": [
+        36,
+        109,
+        494,
+        470
+      ],
+      "pixelHash": "cbb2ff62d4a182f92ede2bf71f2f8b4b15bce1430c498128983abc92cbf47ed6"
+    },
+    {
+      "alphaBounds": [
+        44,
+        69,
+        503,
+        426
+      ],
+      "pixelHash": "f6668bf5adf67f57af08ee6e489bdc680d2bfc7771313ec321fb56489ff5a568"
+    },
+    {
+      "alphaBounds": [
+        42,
+        64,
+        510,
+        427
+      ],
+      "pixelHash": "4ec7b3807fd9cdecc661334ccf80ab7eb84447bb16bf0baaf9a3cc216ba46ed3"
+    },
+    {
+      "alphaBounds": [
+        36,
+        69,
+        490,
+        430
+      ],
+      "pixelHash": "d36036dca86608061624b5da4b3ba0a0aa6f310e446611f90b246c77569a609f"
+    }
+  ],
+  "right": [
+    {
+      "alphaBounds": [
+        34,
+        98,
+        473,
+        471
+      ],
+      "pixelHash": "5340e68820d88fcce788beeae8799ab03de5fab86c611e84f44046dd8323bb48"
+    },
+    {
+      "alphaBounds": [
+        32,
+        96,
+        493,
+        468
+      ],
+      "pixelHash": "1188772c2a4f932b0833b87b9a5cd00232ca5b48d5dfd93eaa714d8535298019"
+    },
+    {
+      "alphaBounds": [
+        33,
+        98,
+        492,
+        467
+      ],
+      "pixelHash": "17ecfa4fa562989990b03178205dff52237324494b2c1d29c2a772cc41772d9a"
+    },
+    {
+      "alphaBounds": [
+        33,
+        65,
+        507,
+        430
+      ],
+      "pixelHash": "b20ecdc2c0629af5d99ab76fce187be2f37073f1f190cbdfaedb45883cae881a"
+    },
+    {
+      "alphaBounds": [
+        32,
+        57,
+        495,
+        424
+      ],
+      "pixelHash": "a33257f30ce616dc3b138fbf7a3666e320832bee02d14a65bcda9fbaa03f445d"
+    },
+    {
+      "alphaBounds": [
+        24,
+        62,
+        493,
+        423
+      ],
+      "pixelHash": "e45c711d387c95801c7db6f2411006524aa55c0af96ad1e1bdfca9edbee46fa5"
+    }
+  ],
+  "sleep": [
+    {
+      "alphaBounds": [
+        62,
+        142,
+        506,
+        446
+      ],
+      "pixelHash": "e86da6c5485a572e71a8f921a6ad1688f1e156a602536fa5f0f199c94e2239e1"
+    },
+    {
+      "alphaBounds": [
+        47,
+        160,
+        496,
+        446
+      ],
+      "pixelHash": "01b4ae1a6e55138813d40d75cc7a80d0ccfe47d5bc300399845c8dd9d2ce5cfb"
+    },
+    {
+      "alphaBounds": [
+        50,
+        129,
+        494,
+        445
+      ],
+      "pixelHash": "15eda163c32ebe192bfeee33ac1abf73587844177cdc4f105b4f8207203f1be2"
+    },
+    {
+      "alphaBounds": [
+        47,
+        142,
+        503,
+        416
+      ],
+      "pixelHash": "373c28128aaadb9d6a9d082b9032778f11a11217a83f600bfa81b9d57aec4329"
+    },
+    {
+      "alphaBounds": [
+        59,
+        107,
+        500,
+        416
+      ],
+      "pixelHash": "b536344ec0971aaf758c45ea6073f3ab71a5a7107254e8875f098773e1116103"
+    },
+    {
+      "alphaBounds": [
+        45,
+        142,
+        491,
+        416
+      ],
+      "pixelHash": "c9907d86b647c4ee81ff2db1205f43b6c61bf17c70d8a3d95da23e8bc1facef7"
+    }
+  ],
+  "eat": [
+    {
+      "alphaBounds": [
+        49,
+        134,
+        487,
+        468
+      ],
+      "pixelHash": "598737f06f36889f0a0f0d4a8339cfbdb7005ed89be86afb8bfa5e9d48e4c1af"
+    },
+    {
+      "alphaBounds": [
+        39,
+        137,
+        476,
+        469
+      ],
+      "pixelHash": "a9bf47e1ae1a42663e43d54be6ac39f4eb9632d1d65a1b977b89c7571a061388"
+    },
+    {
+      "alphaBounds": [
+        58,
+        140,
+        454,
+        475
+      ],
+      "pixelHash": "e63df9060acb4ec1febaa22f4a0e8713ac744391b089b112de92ffcb3f8bcdad"
+    },
+    {
+      "alphaBounds": [
+        56,
+        85,
+        494,
+        420
+      ],
+      "pixelHash": "4ac77cfdaf00a39bb7030f888df3df39e0cf7daa095ae288211745d52913439e"
+    },
+    {
+      "alphaBounds": [
+        44,
+        75,
+        489,
+        421
+      ],
+      "pixelHash": "e5c6d25f71126713f2214bd4f23f674228f2f653726c71b095c30f4883556e1e"
+    },
+    {
+      "alphaBounds": [
+        58,
+        79,
+        464,
+        421
+      ],
+      "pixelHash": "6a05f0964c1ee56505c5f01091d567791ccf5974632f8f3393a15b7ec18e444e"
+    }
+  ],
+  "pet": [
+    {
+      "alphaBounds": [
+        112,
+        26,
+        483,
+        498
+      ],
+      "pixelHash": "edfecfc512fdcb131eb79be6149be02bdefbf9c0228630eb333fd649c08aa14b"
+    },
+    {
+      "alphaBounds": [
+        56,
+        50,
+        426,
+        497
+      ],
+      "pixelHash": "bd03f1c177ef78a9fd95228467abae20b8cd9cd7dd46e2938fa89899fccdd326"
+    },
+    {
+      "alphaBounds": [
+        20,
+        46,
+        394,
+        497
+      ],
+      "pixelHash": "434c4f861e3c4604dc7d57754b68524192276f8bdf71e9d11ec1a531c8276e69"
+    },
+    {
+      "alphaBounds": [
+        112,
+        29,
+        492,
+        471
+      ],
+      "pixelHash": "81dd2bc7cc644e168a7a302dd19d53715a2080e2b91337a4506c1fb04acff05f"
+    },
+    {
+      "alphaBounds": [
+        59,
+        17,
+        441,
+        470
+      ],
+      "pixelHash": "25b833ed454b2bae9f2be2b65fab66e01d6e9222c7f98efe22eee1ab852428aa"
+    },
+    {
+      "alphaBounds": [
+        20,
+        13,
+        384,
+        470
+      ],
+      "pixelHash": "3022a818b163006fd998347f9258e6255721b266b50dc139ff365147e68df898"
+    }
+  ]
+}

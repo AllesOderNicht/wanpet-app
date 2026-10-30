@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "scope": "art reference and suggested layout only; no interactive prototype",
+  "basePt": [390, 844],
+  "safeAreas": "Add platform top/bottom insets outside the reference content bounds; use flow layout and scrolling for small screens or large text.",
+  "hotspotCoordinates": "Approximate design reference [x,y,width,height] in points; not fixed runtime screen coordinates.",
+  "screens": [
+    {
+      "id": "home", "referenceAssetId": "screen_home_v2",
+      "hotspots": [
+        { "action": "open-settings", "bounds": [322, 16, 44, 44], "label": "设置", "implementation": "future; do not render an inert button" },
+        { "action": "open-bag", "bounds": [24, 672, 342, 64], "label": "准备行囊" },
+        { "action": "navigate-home", "bounds": [0, 772, 130, 72], "label": "家园" },
+        { "action": "navigate-trip", "bounds": [130, 772, 130, 72], "label": "旅途" },
+        { "action": "navigate-collection", "bounds": [260, 772, 130, 72], "label": "收藏" }
+      ],
+      "stateVisuals": {
+        "at-home": ["scene_interior_v1", "calico_idle_v1"],
+        "prepared": ["scene_interior_v1", "calico_pack_v1"],
+        "traveling": ["scene_interior_v1"],
+        "returned": ["scene_interior_v1", "calico_return_v1"]
+      }
+    },
+    {
+      "id": "bag", "referenceAssetId": "screen_bag_v1",
+      "hotspots": [
+        { "action": "back-preserve-draft", "bounds": [16, 16, 44, 44], "label": "返回家园" },
+        { "action": "clear-slot-1", "bounds": [24, 310, 106, 108], "label": "准备位一" },
+        { "action": "clear-slot-2", "bounds": [142, 310, 106, 108], "label": "准备位二" },
+        { "action": "clear-slot-3", "bounds": [260, 310, 106, 108], "label": "准备位三" },
+        { "action": "inventory-grid", "bounds": [24, 480, 342, 238], "layout": "3 columns by 2 rows; each tile is an independent target" },
+        { "action": "save-loadout", "bounds": [24, 760, 342, 52], "label": "保存行囊", "requiresFutureServerContract": true }
+      ],
+      "selectionSlotCount": 3,
+      "consumptionTiming": "Server-confirmed departure, not saving preparation",
+      "runtimeCopyCorrection": { "from": "本次使用", "to": "出发时使用" }
+    },
+    {
+      "id": "return", "referenceAssetId": "screen_return_v2",
+      "hotspots": [
+        { "action": "back", "bounds": [16, 16, 44, 44], "label": "返回" },
+        { "action": "view-postcard", "bounds": [24, 340, 342, 228], "label": "林间小路，明信片" },
+        { "action": "claim", "bounds": [24, 708, 342, 52], "label": "领取", "requiresFutureServerContract": true },
+        { "action": "navigate-home", "bounds": [0, 772, 130, 72], "label": "家园" },
+        { "action": "navigate-trip", "bounds": [130, 772, 130, 72], "label": "旅途" },
+        { "action": "navigate-collection", "bounds": [260, 772, 130, 72], "label": "收藏" }
+      ],
+      "sampleRewards": [{ "artAssetId": "souvenir_leaf_bookmark_v1", "quantity": 1 }],
+      "sampleOnly": true
+    },
+    {
+      "id": "collection", "referenceAssetId": "screen_collection_v2",
+      "hotspots": [
+        { "action": "show-postcards", "bounds": [24, 142, 106, 44], "label": "明信片" },
+        { "action": "show-souvenirs", "bounds": [142, 142, 106, 44], "label": "纪念品" },
+        { "action": "view-obtained-postcard-1", "bounds": [16, 220, 176, 184], "label": "林间小路，已获得一张" },
+        { "action": "view-obtained-postcard-2", "bounds": [200, 220, 176, 184], "label": "花园，已获得两张" },
+        { "action": "undiscovered-tile", "bounds": [16, 416, 176, 164], "label": "未发现", "interactive": false },
+        { "action": "navigate-home", "bounds": [0, 772, 130, 72], "label": "家园" },
+        { "action": "navigate-trip", "bounds": [130, 772, 130, 72], "label": "旅途" },
+        { "action": "navigate-collection", "bounds": [260, 772, 130, 72], "label": "收藏" }
+      ],
+      "sampleOnly": true,
+      "undiscoveredArtPolicy": "Generic neutral wash or silhouette; do not grayscale the actual undiscovered artwork."
+    }
+  ],
+  "scenePlacement": [
+    { "assetId": "scene_interior_v1", "sourceNormalizedFootAnchor": [0.5, 0.72], "backgroundFit": "preserve aspect ratio; top align; lower paper may be clipped" },
+    { "assetId": "scene_courtyard_v1", "sourceNormalizedFootAnchor": [0.5, 0.78], "backgroundFit": "preserve aspect ratio; keep central patio visible" }
+  ],
+  "objectPlacement": "Use alpha16 visible bounds and anchor from manifest; contain full object, no mirroring calico, no duplicate bag for packing/return groups.",
+  "dataMapping": {
+    "current": ["pet.speciesId", "pet.nickname", "pet.status=AT_HOME", "inventory[].itemId", "inventory[].quantity", "revision", "serverNow", "activeTrip=null"],
+    "needsFutureContract": ["saved loadout and prepared state", "autonomous departure", "claim execution", "collection entries and counts", "contentId to artAssetId catalog"],
+    "doNotMapByGuess": { "test_species": "not automatically calico", "test_food": "not automatically bento", "test_supply": "not automatically water bottle" }
+  }
+}

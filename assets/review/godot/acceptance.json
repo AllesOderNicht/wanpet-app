@@ -1,0 +1,307 @@
+{
+	"captures": [
+		"home",
+		"behind-furniture",
+		"sleep",
+		"eat",
+		"pet",
+		"courtyard",
+		"bag",
+		"traveling",
+		"ready-to-claim",
+		"return",
+		"collection"
+	],
+	"checks": [
+		{
+			"description": "real auth and initialized account",
+			"passed": true
+		},
+		{
+			"description": "native home mounted",
+			"passed": true
+		},
+		{
+			"description": "capture home",
+			"passed": true
+		},
+		{
+			"description": "visible pet reaches destination around furniture",
+			"passed": true
+		},
+		{
+			"description": "capture behind-furniture",
+			"passed": true
+		},
+		{
+			"description": "sleep reached and animation started",
+			"passed": true
+		},
+		{
+			"description": "capture sleep",
+			"passed": true
+		},
+		{
+			"description": "eat reached and animation started",
+			"passed": true
+		},
+		{
+			"description": "capture eat",
+			"passed": true
+		},
+		{
+			"description": "stroke interrupts eating",
+			"passed": true
+		},
+		{
+			"description": "capture pet",
+			"passed": true
+		},
+		{
+			"description": "walking through door switches room",
+			"passed": true
+		},
+		{
+			"description": "capture courtyard",
+			"passed": true
+		},
+		{
+			"description": "time-only server refresh preserves native form controls",
+			"passed": true
+		},
+		{
+			"description": "capture bag",
+			"passed": true
+		},
+		{
+			"description": "actual departure confirmed by server",
+			"passed": true
+		},
+		{
+			"description": "capture traveling",
+			"passed": true
+		},
+		{
+			"description": "repeat start cannot consume twice",
+			"passed": true
+		},
+		{
+			"description": "restart has no persisted auth token",
+			"passed": true
+		},
+		{
+			"description": "relogin restores exact player and trip",
+			"passed": true
+		},
+		{
+			"description": "server arrival restores home pet before claim",
+			"passed": true
+		},
+		{
+			"description": "capture ready-to-claim",
+			"passed": true
+		},
+		{
+			"description": "claim updates authoritative inventory and collection",
+			"passed": true
+		},
+		{
+			"description": "capture return",
+			"passed": true
+		},
+		{
+			"description": "capture collection",
+			"passed": true
+		},
+		{
+			"description": "different-key duplicate claim replays on real server",
+			"passed": true
+		},
+		{
+			"description": "duplicate claim does not add rewards",
+			"passed": true
+		},
+		{
+			"description": "real logout clears client session",
+			"passed": true
+		},
+		{
+			"description": "login restores collected postcards",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 5",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 11",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 17",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 23",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 29",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 35",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 41",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 47",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 53",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 59",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 65",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 71",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 77",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 83",
+			"passed": true
+		},
+		{
+			"description": "bounded node count at soak interval 89",
+			"passed": true
+		},
+		{
+			"description": "15 actual minutes of scene and page transitions",
+			"passed": true
+		}
+	],
+	"elapsedSeconds": 987.371,
+	"engine": "4.7.2-stable (official)",
+	"errors": [],
+	"soak": [
+		{
+			"elapsedSeconds": 60.108,
+			"fps": 50.0,
+			"memoryBytes": 194257410,
+			"nodes": 27,
+			"objects": 1610
+		},
+		{
+			"elapsedSeconds": 120.227,
+			"fps": 52.0,
+			"memoryBytes": 194404194,
+			"nodes": 34,
+			"objects": 1624
+		},
+		{
+			"elapsedSeconds": 180.341,
+			"fps": 51.0,
+			"memoryBytes": 194260406,
+			"nodes": 27,
+			"objects": 1610
+		},
+		{
+			"elapsedSeconds": 240.438,
+			"fps": 50.0,
+			"memoryBytes": 194407110,
+			"nodes": 34,
+			"objects": 1624
+		},
+		{
+			"elapsedSeconds": 300.546,
+			"fps": 50.0,
+			"memoryBytes": 194263366,
+			"nodes": 27,
+			"objects": 1610
+		},
+		{
+			"elapsedSeconds": 360.644,
+			"fps": 49.0,
+			"memoryBytes": 194410046,
+			"nodes": 34,
+			"objects": 1624
+		},
+		{
+			"elapsedSeconds": 420.782,
+			"fps": 49.0,
+			"memoryBytes": 194266326,
+			"nodes": 27,
+			"objects": 1610
+		},
+		{
+			"elapsedSeconds": 480.884,
+			"fps": 49.0,
+			"memoryBytes": 194413006,
+			"nodes": 34,
+			"objects": 1624
+		},
+		{
+			"elapsedSeconds": 541.015,
+			"fps": 49.0,
+			"memoryBytes": 194269214,
+			"nodes": 27,
+			"objects": 1610
+		},
+		{
+			"elapsedSeconds": 600.747,
+			"fps": 49.0,
+			"memoryBytes": 194415990,
+			"nodes": 34,
+			"objects": 1624
+		},
+		{
+			"elapsedSeconds": 661.084,
+			"fps": 50.0,
+			"memoryBytes": 194272198,
+			"nodes": 27,
+			"objects": 1610
+		},
+		{
+			"elapsedSeconds": 721.63,
+			"fps": 48.0,
+			"memoryBytes": 194418878,
+			"nodes": 34,
+			"objects": 1624
+		},
+		{
+			"elapsedSeconds": 781.632,
+			"fps": 48.0,
+			"memoryBytes": 194275086,
+			"nodes": 27,
+			"objects": 1610
+		},
+		{
+			"elapsedSeconds": 841.989,
+			"fps": 48.0,
+			"memoryBytes": 194422522,
+			"nodes": 34,
+			"objects": 1624
+		},
+		{
+			"elapsedSeconds": 902.057,
+			"fps": 52.0,
+			"memoryBytes": 194278702,
+			"nodes": 27,
+			"objects": 1610
+		}
+	]
+}

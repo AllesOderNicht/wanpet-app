@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "design-spec; not wired into client",
+  "basePt": { "width": 390, "height": 844 },
+  "colors": {
+    "paper": "#FBFAF5", "surface": "#FFFFFF", "ink": "#3F4A40",
+    "secondary": "#687266", "primary": "#4D654F", "sageWash": "#E7ECDD",
+    "outline": "#ADB9A3", "sky": "#DDECF2", "apricot": "#E8B78B",
+    "error": "#9F433C"
+  },
+  "fontFamily": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Hiragino Sans GB\", sans-serif",
+  "typographyPt": {
+    "display": { "size": 36, "lineHeight": 44, "weight": 600 },
+    "title": { "size": 28, "lineHeight": 36, "weight": 600 },
+    "section": { "size": 20, "lineHeight": 28, "weight": 600 },
+    "body": { "size": 16, "lineHeight": 24, "weight": 400 },
+    "button": { "size": 16, "lineHeight": 24, "weight": 600 },
+    "helper": { "size": 14, "lineHeight": 20, "weight": 400 },
+    "navigation": { "size": 14, "lineHeight": 20, "weight": 500 }
+  },
+  "spacingPt": [4, 8, 12, 16, 24, 32],
+  "pageGutterPt": 24,
+  "radiusPt": { "primaryButton": 28, "itemTile": 16, "card": 12 },
+  "controlsPt": { "minimumHitSize": 44, "primaryButtonHeight": 56, "navigationHeight": 72 },
+  "focus": { "color": "primary", "widthPt": 2, "offsetPt": 3 },
+  "motion": { "suggestedDurationMs": [120, 180], "reducedMotion": "use immediate state text; optional fade only", "deliveredAnimation": false },
+  "solidColorContrast": [
+    { "foreground": "ink", "background": "paper", "ratio": 8.87 },
+    { "foreground": "secondary", "background": "paper", "ratio": 4.80 },
+    { "foreground": "surface", "background": "primary", "ratio": 6.38 },
+    { "foreground": "primary", "background": "sageWash", "ratio": 5.30 }
+  ],
+  "note": "Generated mockup pixels may vary; runtime text and control geometry follow these tokens. Ratios are for solid token colors, not whole screenshots."
+}

@@ -1,0 +1,322 @@
+{
+  "version": 1,
+  "id": "courtyard",
+  "name": "清晨庭院",
+  "size": [
+    390,
+    844
+  ],
+  "background": "res://assets/morning/courtyard.png",
+  "background_fit": "cover",
+  "background_position": [
+    0.5,
+    0.5
+  ],
+  "spawn": [
+    200,
+    590
+  ],
+  "walkable": [
+    [
+      115,
+      405
+    ],
+    [
+      235,
+      395
+    ],
+    [
+      260,
+      420
+    ],
+    [
+      260,
+      535
+    ],
+    [
+      278,
+      585
+    ],
+    [
+      275,
+      650
+    ],
+    [
+      255,
+      710
+    ],
+    [
+      145,
+      710
+    ],
+    [
+      112,
+      685
+    ],
+    [
+      112,
+      600
+    ],
+    [
+      120,
+      560
+    ],
+    [
+      100,
+      525
+    ],
+    [
+      105,
+      480
+    ],
+    [
+      110,
+      435
+    ]
+  ],
+  "objects": [
+    {
+      "id": "cat-bed",
+      "texture": "res://assets/props/home-atlas.png",
+      "region": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "position": [
+        180,
+        685
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "scale": 0.26,
+      "layer": "ground",
+      "front_part": {
+        "texture": "res://assets/props/home-atlas.png",
+        "region": [
+          512,
+          376,
+          512,
+          72
+        ],
+        "pivot": [
+          256,
+          72
+        ],
+        "depth_offset": 12
+      }
+    },
+    {
+      "id": "food-bowl",
+      "texture": "res://assets/props/home-atlas.png",
+      "region": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "position": [
+        215,
+        515
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "scale": 0.105,
+      "layer": "ground",
+      "front_part": {
+        "texture": "res://assets/props/home-atlas.png",
+        "region": [
+          1024,
+          408,
+          512,
+          40
+        ],
+        "pivot": [
+          256,
+          40
+        ],
+        "depth_offset": 8
+      }
+    },
+    {
+      "id": "water-bowl",
+      "texture": "res://assets/living/water-v1.png",
+      "position": [
+        215,
+        565
+      ],
+      "pivot": [
+        768,
+        838
+      ],
+      "scale": 0.037,
+      "layer": "ground"
+    },
+    {
+      "id": "cat-toilet",
+      "texture": "res://assets/living/toilet-v1.png",
+      "position": [
+        150,
+        470
+      ],
+      "pivot": [
+        790,
+        919
+      ],
+      "scale": 0.084,
+      "layer": "world",
+      "collision": [
+        [
+          -43,
+          -24
+        ],
+        [
+          43,
+          -24
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          -43,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "reading-book",
+      "texture": "res://assets/living/book-v1.png",
+      "position": [
+        145,
+        565
+      ],
+      "pivot": [
+        769,
+        841
+      ],
+      "scale": 0.041,
+      "layer": "ground"
+    }
+  ],
+  "interactions": [],
+  "art_source": "design/2026-10-22-morning-ui/assets/courtyard.png",
+  "navigation_notes": "Existing courtyard illustration retained. Central paving expanded above the old small foreground region; the baked bench, left backpack stool, right table/chair, planting beds and foreground flowers stay outside the foot polygon. Facilities are placed on that clear paving. Toilet collision blocks its footprint while the approach/use slot stays in front; no path enters the cabinet. Low bowls, floor book and movable bed remain traversable. Sunny/shelter are alternative foot positions for the same bed, with a 13-unit pivot offset. Furniture/body overlap, book gaze and reused water-bowl appearance require native visual calibration; no new toilet or reading animation is implied.",
+  "life_spots": {
+    "sunny": [
+      225,
+      647
+    ],
+    "shelter": [
+      180,
+      654
+    ],
+    "food": [
+      227.6,
+      500.45
+    ],
+    "water": [
+      227.6,
+      550.45
+    ],
+    "toilet": [
+      134,
+      492
+    ],
+    "reading": [
+      145,
+      531
+    ],
+    "nearby": [
+      210,
+      590
+    ]
+  },
+  "cushion_anchor_offset": [
+    0,
+    31
+  ],
+  "life_slots": {
+    "sunny": {
+      "position": [
+        225,
+        647
+      ],
+      "facing": "front",
+      "pose": "rest"
+    },
+    "shelter": {
+      "position": [
+        180,
+        654
+      ],
+      "facing": "front",
+      "pose": "rest"
+    },
+    "food": {
+      "object_id": "food-bowl",
+      "offset": [
+        12.6,
+        -14.55
+      ],
+      "contact": [
+        0,
+        -18
+      ],
+      "facing": "front",
+      "pose": "eat"
+    },
+    "water": {
+      "object_id": "water-bowl",
+      "offset": [
+        12.6,
+        -14.55
+      ],
+      "contact": [
+        0,
+        -18
+      ],
+      "facing": "front",
+      "pose": "eat"
+    },
+    "toilet": {
+      "object_id": "cat-toilet",
+      "offset": [
+        -16,
+        22
+      ],
+      "contact": [
+        -16,
+        -12
+      ],
+      "facing": "back",
+      "pose": "idle"
+    },
+    "reading": {
+      "object_id": "reading-book",
+      "offset": [
+        0,
+        -34
+      ],
+      "contact": [
+        0,
+        -17
+      ],
+      "facing": "front",
+      "pose": "idle"
+    },
+    "nearby": {
+      "position": [
+        210,
+        590
+      ],
+      "facing": "front",
+      "pose": "idle"
+    }
+  }
+}

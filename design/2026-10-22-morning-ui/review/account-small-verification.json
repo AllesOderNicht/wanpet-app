@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22",
+  "viewport": "320x568",
+  "checks": [
+    "account 320x568 no horizontal overflow",
+    "account small-screen action reachable",
+    "password 320x568 no horizontal overflow",
+    "password small-screen action reachable",
+    "logout 320x568 no horizontal overflow",
+    "logout small-screen action reachable"
+  ]
+}

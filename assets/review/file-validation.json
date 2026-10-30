@@ -1,0 +1,831 @@
+{
+  "date": "2026-10-17",
+  "scope": "Art files only; not app, interaction, device, legal, or backend acceptance",
+  "checks": [
+    {
+      "id": "calico_character_reference_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1536,
+        1024
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "home_window_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        853,
+        1844
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "home_garden_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        853,
+        1844
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "home_journal_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        853,
+        1844
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "screen_bag_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        853,
+        1844
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "screen_return_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        935,
+        1683
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "screen_collection_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        935,
+        1683
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "calico_idle_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.589665,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          191,
+          111,
+          1068,
+          1173
+        ]
+      }
+    },
+    {
+      "id": "calico_pack_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.60677,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          51,
+          179,
+          1220,
+          1094
+        ]
+      }
+    },
+    {
+      "id": "calico_return_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.559796,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          38,
+          127,
+          1242,
+          1126
+        ]
+      }
+    },
+    {
+      "id": "calico_sleep_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.639584,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          41,
+          325,
+          1221,
+          969
+        ]
+      }
+    },
+    {
+      "id": "calico_avatar_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.492426,
+        "cornerAlpha": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          87,
+          134,
+          1166,
+          1196
+        ]
+      }
+    },
+    {
+      "id": "calico_silhouette_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.598771,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          216,
+          112,
+          1025,
+          1170
+        ]
+      }
+    },
+    {
+      "id": "scene_interior_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        941,
+        1672
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "scene_courtyard_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        941,
+        1672
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "item_bento_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.623947,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          189,
+          246,
+          1122,
+          1018
+        ]
+      }
+    },
+    {
+      "id": "item_biscuit_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.578327,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          108,
+          207,
+          1160,
+          1057
+        ]
+      }
+    },
+    {
+      "id": "item_water_bottle_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.627616,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          328,
+          104,
+          1053,
+          1176
+        ]
+      }
+    },
+    {
+      "id": "item_map_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.57908,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          57,
+          203,
+          1199,
+          1030
+        ]
+      }
+    },
+    {
+      "id": "item_towel_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.635176,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          97,
+          296,
+          1173,
+          1072
+        ]
+      }
+    },
+    {
+      "id": "item_lantern_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.694951,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          309,
+          84,
+          947,
+          1179
+        ]
+      }
+    },
+    {
+      "id": "souvenir_leaf_bookmark_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.688763,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          180,
+          82,
+          1178,
+          1164
+        ]
+      }
+    },
+    {
+      "id": "souvenir_pebbles_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.644196,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          145,
+          239,
+          1157,
+          1042
+        ]
+      }
+    },
+    {
+      "id": "souvenir_cottage_badge_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.587881,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          118,
+          201,
+          1141,
+          1093
+        ]
+      }
+    },
+    {
+      "id": "postcard_forest_path_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1536,
+        1024
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "postcard_garden_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1536,
+        1024
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "postcard_coast_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1536,
+        1024
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "nav_home_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.743596,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          230,
+          291,
+          1024,
+          988
+        ]
+      }
+    },
+    {
+      "id": "nav_trip_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.743052,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          134,
+          265,
+          1165,
+          1021
+        ]
+      }
+    },
+    {
+      "id": "nav_collection_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.660733,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          289,
+          229,
+          1000,
+          1049
+        ]
+      }
+    },
+    {
+      "id": "nav_bag_v1",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.667566,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBoundsAtAlpha16": [
+          200,
+          321,
+          1210,
+          1003
+        ]
+      }
+    },
+    {
+      "id": "screen_home_v2",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        853,
+        1844
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "screen_return_v2",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        853,
+        1844
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    },
+    {
+      "id": "screen_collection_v2",
+      "png": "pass",
+      "promptAndReferences": "pass",
+      "actualSize": [
+        853,
+        1844
+      ],
+      "alpha": {
+        "range": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "id": "calico_return_v1",
+      "note": "Less than 2% visible edge padding; use contain and do not crop."
+    },
+    {
+      "id": "calico_avatar_v1",
+      "note": "One corner alpha is 1/255; near-transparent generation noise, source retained."
+    }
+  ],
+  "summary": {
+    "sourcePngCount": 34,
+    "finalScreenCount": 4,
+    "standaloneCount": 24,
+    "transparentAssetsChecked": 19,
+    "webpExportCount": 28,
+    "sourcePngBytes": 62828159,
+    "webpExportBytes": 2086792,
+    "uniquePromptCount": 34,
+    "verifiedDerivativeHashes": 28
+  },
+  "browserCatalog": {
+    "status": "pass",
+    "scope": "Local art catalog only; not gameplay UI",
+    "pngAndWebpRendered": true,
+    "brokenImages": 0,
+    "imageElements": 79,
+    "desktopViewportWidth": 1440,
+    "desktopDocumentWidth": 1440,
+    "mobileViewportWidth": 390,
+    "mobileDocumentWidth": 390
+  },
+  "visualInspection": {
+    "sourcePng": "reviewed in generation outputs and light/dark catalog",
+    "webp": "character and navigation edges reviewed on light/dark catalog; all exports decoded",
+    "smallSizes": "28px/64px full canvas shown; use visible bounds normalization for actual navigation",
+    "mockups": "four final portraits reviewed; 853x1844 each"
+  },
+  "notPerformed": [
+    "gameplay browser QA",
+    "iOS device QA",
+    "VoiceOver and Dynamic Type",
+    "runtime hit target measurement",
+    "backend integration",
+    "animation and full body patch registration",
+    "legal and commercial similarity clearance"
+  ],
+  "repositoryChecks": {
+    "scaffold": "pass",
+    "gitDiffCheck": "pass",
+    "designJsonAndLinks": "pass",
+    "handoffReferenceTargets": "pass"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-29",
+  "branch": "main",
+  "baseline": "93ba9f5",
+  "node": "24.14.1",
+  "godot": "4.5.1",
+  "postgres": "14.18",
+  "checks": {
+    "scaffold": "passed",
+    "workspace_typecheck": "passed",
+    "server_unit": {
+      "passed": 47,
+      "failed": 0
+    },
+    "server_postgres_http": {
+      "passed": 72,
+      "failed": 0
+    },
+    "mobile_session": {
+      "passed": 30,
+      "failed": 0
+    },
+    "mobile_components": {
+      "suites": 7,
+      "passed": 49,
+      "failed": 0
+    },
+    "godot_rn_bridge": "passed",
+    "godot_v2_life": "passed:10indooractions;7courtyardslots;stage/contact/recovery/reducedmotion",
+    "server_build": "passed",
+    "ios_js_bundle": "passed",
+    "android_js_bundle": "passed",
+    "ios_pck": "passed",
+    "android_scene_assets": "passed",
+    "engine_render_review": "FAILED user visual review: eating bowl overlaps face; sleeping body sits on front rim rather than inside cushion. Engine behavior tests pass but do not establish visual acceptance.",
+    "skill_validation": "YAML/name/description/local links checked using installed Node yaml; Python quick_validate unavailable without PyYAML"
+  },
+  "not_run": [
+    "native iOS/Android compilation/signing",
+    "physical device interaction/performance",
+    "real online Jev/chat/Seedream provider acceptance",
+    "3D prototype"
+  ],
+  "database_scope": "New isolated local wanpet_test_refactor20261029 only; dev/remote unchanged",
+  "new_video_generation": false,
+  "new_generated_png_count": 5
+}

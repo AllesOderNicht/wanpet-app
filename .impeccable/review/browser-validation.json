@@ -1,0 +1,114 @@
+{
+  "pass": [
+    "automatic wandering starts",
+    "manual movement, left/right switching, keyboard, arrival and >=4 actual animation frames",
+    "scene changes retain one renderer",
+    "three preparation slots, stock/selection disabled states, draft retained, preview preparation and back scroll",
+    "local pack with alternate metadata and four-frame cycles imports without renderer changes",
+    "invalid external texture rejected, active pet retained, default pet restored",
+    "reduced motion disables wandering and makes explicit repositioning immediate",
+    "rapid mount/unmount leaves one functioning canvas",
+    "legal top-left and bottom-right anchors import and reposition at both limits; all-frame four-edge bounds covered by unit regression",
+    "honest empty travel and collection states; 320/390/853/1440 layout and >=44px navigation"
+  ],
+  "layouts": [
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "contentWidth": 390,
+      "contentScrollWidth": 390,
+      "navTargets": [
+        [
+          119.328125,
+          66
+        ],
+        [
+          119.34375,
+          66
+        ],
+        [
+          119.328125,
+          66
+        ]
+      ]
+    },
+    {
+      "name": "small",
+      "width": 320,
+      "height": 568,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "contentWidth": 320,
+      "contentScrollWidth": 320,
+      "navTargets": [
+        [
+          96,
+          66
+        ],
+        [
+          96,
+          66
+        ],
+        [
+          96,
+          66
+        ]
+      ]
+    },
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "contentWidth": 480,
+      "contentScrollWidth": 480,
+      "navTargets": [
+        [
+          149.328125,
+          66
+        ],
+        [
+          149.34375,
+          66
+        ],
+        [
+          149.328125,
+          66
+        ]
+      ]
+    },
+    {
+      "name": "hero-repro",
+      "width": 853,
+      "height": 1844,
+      "viewport": 853,
+      "scrollWidth": 853,
+      "contentWidth": 480,
+      "contentScrollWidth": 480,
+      "navTargets": [
+        [
+          149.328125,
+          66
+        ],
+        [
+          149.34375,
+          66
+        ],
+        [
+          149.328125,
+          66
+        ]
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": 0,
+  "backendWrites": 0,
+  "renderer": "Headless Chromium software WebGL; no iOS device/performance claim",
+  "screenshots": "/Users/xiamujiadesanhuamao/Desktop/my_code/wanchong/wanpet-app/.impeccable/review",
+  "heroRepro": "Current post-fix capture at reference viewport 853x1844, with 480px container preserved. This is not a historical checkpoint."
+}

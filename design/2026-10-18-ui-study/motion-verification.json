@@ -1,0 +1,9 @@
+{
+  "viewport": [
+    390,
+    844
+  ],
+  "neutral_mean_error_0_255": 0.001871430307449265,
+  "cat_motion_mean_change_0_255": 5.004115137982366,
+  "footer_mean_change_0_255": 0.0
+}

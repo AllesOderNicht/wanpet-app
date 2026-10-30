@@ -1,0 +1,9 @@
+Generate a production game FURNITURE ATLAS as genuine transparent PNG, matching the attached cottage environment's warm hand-painted storybook ink-line art. Reference image provides palette, outline and camera only; do NOT include the room.
+
+Wide 1536x768 canvas divided into TWO equal 768x768 cells. No grid, no labels, no text, no floor, no background, no people, no cat. All outside the furniture is true transparent alpha.
+
+LEFT CELL: a small round low wooden dining table, seen from the same slightly elevated front 3/4 view as the reference. Warm honey-colored oval tabletop, organic wood grain rings, dark olive-brown soft outlines, four short slightly splayed wooden legs. Complete table entirely inside cell with 45px gutters. Top surface ellipse approximately x70..698 and y245..475, tabletop rim 28px deep, front feet reach y680. On the LEFT side of table a small off-white ceramic mug with a leaf motif; at center an open small illustrated botanical travel notebook, no legible letters. Keep the far RIGHT rim and right third of tabletop empty for a cat's paws to rest. Table must be solid opaque wood, no alpha inside it.
+
+RIGHT CELL: a matching small wooden armchair, completely EMPTY, with a muted terracotta seat cushion. View 3/4 facing LOWER LEFT; we will place this chair behind and to the right of the table. Rounded wooden back posts from y140, backrest at y230, seat cushion centered (420,480), armrests at y395, legs to y680. The front armrest is near left, the back/right post is near right. A little charming uneven handcrafted joinery, solid construction. Leave at least 70px space around all sides, complete legs visible. Similar wood scale and identical outline weight as the table.
+
+The two objects must not touch or overlap. Do not arrange them as a scene; atlas cells are independent reusable transparent cutouts. Palette warm honey wood, burnt orange cushion, restrained pencil shading; match the supplied cottage rendering.

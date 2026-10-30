@@ -1,0 +1,27 @@
+[Unit]
+Description=Wanpet development API
+After=network.target postgresql-17.service
+
+[Service]
+Type=simple
+User=wanpet
+Group=wanpet
+WorkingDirectory=/opt/wanpet/current/apps/server
+StateDirectory=wanpet
+ReadWritePaths=/var/lib/wanpet
+EnvironmentFile=/etc/wanpet/wanpet-dev.env
+ExecStart=/opt/wanpet/runtime/bin/node dist/main.js
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=20
+MemoryMax=512M
+CPUQuota=100%
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target

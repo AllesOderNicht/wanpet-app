@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01-engawa.png",
+    "width": 853,
+    "height": 1844,
+    "status": "concept-needs-refinement"
+  },
+  {
+    "file": "02-letter.png",
+    "width": 941,
+    "height": 1672,
+    "status": "concept-needs-refinement"
+  },
+  {
+    "file": "03-courtyard.png",
+    "width": 1024,
+    "height": 1536,
+    "status": "concept-needs-refinement"
+  }
+]

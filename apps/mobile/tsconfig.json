@@ -1,0 +1,19 @@
+{
+  "extends": "@react-native/typescript-config",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/Pods",
+    "test"
+  ],
+  "compilerOptions": {
+    "paths": {
+      "@borndotcom/react-native-godot": [
+        "../../node_modules/@borndotcom/react-native-godot/lib/typescript/js/index.d.ts"
+      ]
+    }
+  }
+}

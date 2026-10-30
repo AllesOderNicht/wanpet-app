@@ -1,0 +1,42 @@
+import assert from 'node:assert/strict';
+import {randomUUID} from 'node:crypto';
+import {mkdir,readFile,writeFile} from 'node:fs/promises';
+import {spawn} from 'node:child_process';
+import path from 'node:path';
+import {createApp} from '../apps/server/dist/bootstrap.js';
+import {loadConfig} from '../apps/server/dist/config.js';
+import {Database} from '../apps/server/dist/database.js';
+import {initialCat} from '../apps/server/dist/cat-life.js';
+import {Session} from '../apps/mobile/src/session/Session.ts';
+const databaseUrl=process.env.TEST_DATABASE_URL;
+assert(databaseUrl&&/^wanpet_test(?:_[a-z0-9]+)?$/.test(new URL(databaseUrl).pathname.slice(1)),'An isolated test database is required');
+const config=loadConfig({...process.env,NODE_ENV:'test',DATABASE_URL:databaseUrl,PORT:'0',CLIENT_ORIGIN:'http://localhost:5173'});
+assert(config.jev,'A real Jev key is required');
+const app=await createApp(config);await app.listen(0,'127.0.0.1');
+const journal=new Map();
+const session=new Session({credentials:{read:async()=>null,write:async()=>{},remove:async()=>{}},baseURL:(await app.getUrl())+'/v1',development:true,journal:{read:async k=>journal.get(k)??null,write:async(k,v)=>{journal.set(k,v);},remove:async k=>{journal.delete(k);}},key:()=>randomUUID(),now:()=>performance.now(),fetch});
+try{
+ const name='livecat_'+randomUUID().replaceAll('-','').slice(0,12);
+ assert(await session.authenticate(name+'@example.test',randomUUID(),true,name));
+ const snapshot=session.state.snapshot;assert(snapshot);
+ const state=initialCat(snapshot.pet.id,Date.now());state.needs={hunger:.82,fatigue:.1,stimulation:.1,alertness:.1};
+ await app.get(Database).petLife.create({data:{petId:snapshot.pet.id,revision:1,state}});
+ await session.advanceLife({surface:'interior',event:'observe',intentId:null,target:null,automatic:true});
+ await session.advanceLife({surface:'interior',event:'observe',intentId:null,target:null,automatic:true});
+ const life=session.state.life;assert(life?.intent);assert.equal(life.decisionSource,'jev');assert.equal(life.intent.activity,'eat');
+ const dir=path.resolve('.tools/cat-life-live',randomUUID());await mkdir(dir,{recursive:true});
+ const input=path.join(dir,'intent.json'),output=path.join(dir,'completion.json');await writeFile(input,JSON.stringify(life));
+ const binary=path.resolve('.tools/godot-4.5.1/Godot.app/Contents/MacOS/Godot');
+ await new Promise((resolve,reject)=>{
+  const child=spawn(binary,['--headless','--path','.tools/rn-game','--script','res://tests/cat_live.gd','--',input,output],{stdio:['ignore','pipe','pipe']});
+  const timeout=setTimeout(()=>child.kill('SIGTERM'),110000);
+  let log='';child.stdout.on('data',b=>{log+=b;process.stdout.write(b);});child.stderr.on('data',b=>{log+=b;});
+  child.on('error',error=>{clearTimeout(timeout);reject(error);});child.on('exit',code=>{clearTimeout(timeout);code===0&&!/(?:SCRIPT ERROR|ERROR):/.test(log)?resolve():reject(new Error(log));});
+ });
+ const completion=JSON.parse(await readFile(output,'utf8'));
+ await session.advanceLife({surface:'interior',event:'complete',intentId:completion.intentId,target:null,automatic:true});
+ assert.equal(session.state.life?.memories[0]?.activity,'eat');assert.equal(session.state.life?.memories[0]?.kind,'observed');
+ await session.refresh();assert.deepEqual(session.state.snapshot?.inventory,snapshot.inventory);assert.equal(session.state.snapshot?.revision,snapshot.revision);
+ assert.equal(journal.size,0);
+ console.log(JSON.stringify({passed:true,path:'RN Session -> authenticated HTTP -> PostgreSQL -> live Jev -> Godot navigation and timed eating -> completion -> persisted memory',source:life.decisionSource,activity:life.intent.activity,sceneDurationSeconds:life.intent.durationSeconds,inventoryUnchanged:true}));
+}finally{await session.logout();await app.close();}
